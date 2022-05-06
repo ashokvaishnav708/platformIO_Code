@@ -1,0 +1,13 @@
+/ {
+    aliases {
+        spi3 = &spi3;
+    };
+};
+
+&spi3 {
+	LABEL = "SPI_3"
+	sck-pin = <47>;
+	miso-pin = <46>;
+	mosi-pin = <45>;
+	cs-gpios = <&arduino_header 16 GPIO_ACTIVE_LOW>;
+};

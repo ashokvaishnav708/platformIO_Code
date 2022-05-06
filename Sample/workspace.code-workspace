@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"name": "Sample",
+			"path": "."
+		},
+		{
+			"name": "Blink",
+			"path": "..\\Blink"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"zephyr.h": "c",
+			"printk.h": "c",
+			"device.h": "c",
+			"sx1280-radio.h": "c"
+		}
+	}
+}

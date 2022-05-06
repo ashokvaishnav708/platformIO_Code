@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "zephyr.h": "c",
+        "log.h": "c",
+        "sx1280.h": "c",
+        "sx12xx_common.h": "c",
+        "lora.h": "c",
+        "device.h": "c"
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "lora.h": "c",
+        "sx1280.h": "c",
+        "radio.h": "c"
+    }
+}

@@ -1,0 +1,18 @@
+{
+	"folders": [
+		{
+			"path": "..\\..\\..\\sx1280_try"
+		},
+		{
+			"name": "nRF52840_SX1280_zephyr",
+			"path": "..\\.."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"lora.h": "c",
+			"sx1280.h": "c",
+			"radio.h": "c"
+		}
+	}
+}
