@@ -21,6 +21,10 @@ BUILD_ASSERT(DT_NODE_HAS_STATUS(DEFAULT_RADIO_NODE, okay),
 #define SENDER
 //#define RECEIVER
 
+#ifdef SENDER
+#define RANGING_SAMPLES 5
+#endif
+
 #define LOG_LEVEL CONFIG_LOG_DEFAULT_LEVEL
 #include <logging/log.h>
 
@@ -29,13 +33,20 @@ LOG_MODULE_REGISTER(sx1280_ranging);
 const uint16_t TxtimeoutmS = 5000;
 const uint16_t RxtimeoutmS = 0xFFFF;
 
+
 void main(void)
 {
 	const struct device *lora_dev = DEVICE_DT_GET(DEFAULT_RADIO_NODE);
 	struct lora_modem_config config;
+	
 	int ret;
-    uint32_t RangingAddress = 16;
-    #ifdef SENDER
+
+	int samples;
+	double total_dist;
+    
+	uint32_t RangingAddress = 16;
+    
+	#ifdef SENDER
 	struct lora_ranging_params rangingResult;
     #endif
 
@@ -73,27 +84,36 @@ void main(void)
 
 	while (1) {
         #ifdef SENDER
-		// printk("sending...\n");
-		rangingResult = lora_transmit_ranging(lora_dev, &config, RangingAddress, TxtimeoutmS);
-        //printk("\nDistance : %d", rangingResult.distance);
-		if (rangingResult.status == false) {
-			LOG_ERR("LoRa ranging failed.");
-			goto sn;
-		}
-        LOG_INF("Distance : %d",  rangingResult.distance);
-        LOG_INF(", RSSIReg. : %x", rangingResult.RSSIReg);
-        LOG_INF(", RSSI : %d dBm", rangingResult.RSSIVal);
-		// printk("Data sent!\n");
+		total_dist = 0.0;
+		samples = 0;
 
-		/* Send data at 1s interval */
+		while(samples < RANGING_SAMPLES)
+		{
+			rangingResult = lora_transmit_ranging(lora_dev, &config, RangingAddress, TxtimeoutmS);
+
+			if (rangingResult.status == false) 
+			{
+				LOG_ERR("LoRa ranging failed.");
+				goto sn;
+			}
+
+			LOG_INF("Distance : %d cm ", (int)rangingResult.distance);
+			//LOG_INF(", RSSIReg. : %x", rangingResult.RSSIReg);
+			//LOG_INF(", RSSI : %d dBm", rangingResult.RSSIVal);
+			total_dist += rangingResult.distance;
+			samples++;
+		}
+		sn:
+		LOG_INF("Average Distance : %d cm ", (int)(total_dist/samples));
+
         #endif
+
         #ifdef RECEIVER
         if ( lora_receive_ranging(lora_dev, &config, RangingAddress, RxtimeoutmS) )
         {
             LOG_INF("Response Sent");
         }
         #endif
-        sn:
 		k_sleep(K_MSEC(1000));
 	}
 }
