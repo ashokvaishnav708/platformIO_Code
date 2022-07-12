@@ -3,6 +3,11 @@
 #include <drivers/gpio.h>
 #include <drivers/spi.h>
 
+#define LOG_LEVEL CONFIG_LOG_DEFAULT_LEVEL
+#include <logging/log.h>
+
+LOG_MODULE_REGISTER(sample_try);
+
 
 #define BUTTON_NODE DT_NODELABEL(button0)
 #define LED_NODE DT_NODELABEL(led0)
@@ -26,11 +31,8 @@ void main(void)
 
     while(1)
     {
-        int val = gpio_pin_get_dt(&button);
-        if(val >= 0)
-        {
-            gpio_pin_set_dt(&led, val);
-        }
+        LOG_INF("Hello World.");
+        k_sleep(K_MSEC(1000));
     }
 
 }

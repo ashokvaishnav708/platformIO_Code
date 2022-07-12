@@ -1,0 +1,36 @@
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: C:/Users/ashok/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+c:/users/ashok/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/bin/ld.exe: c:/users/ashok/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib\libc.a(lib_a-exit.o): in function `exit':
+exit.c:(.text.exit+0x2c): undefined reference to `_exit'
+collect2.exe: error: ld returned 1 exit status
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: C:/Users/ashok/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+c:/users/ashok/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/bin/ld.exe: c:/users/ashok/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib\libc.a(lib_a-exit.o): in function `exit':
+exit.c:(.text.exit+0x2c): undefined reference to `_exit'
+collect2.exe: error: ld returned 1 exit status
+
+
+Performing C SOURCE FILE Test check_fmacro_prefix_map_C__Users_ashok_Documents_PlatformIO_Projects_Hello_World_zephyr_CMAKE_SOURCE_DIR_C__nostartfiles__nostdlib__isystem__c__users_ashok__platformio_packages_toolchain_gccarmnoneeabi_bin____lib_gcc_arm_none_eabi_8_2_1_include___isystem__c__users_ashok__platformio_packages_toolchain_gccarmnoneeabi_bin____lib_gcc_arm_none_eabi_8_2_1_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0 failed with the following output:
+Change Dir: C:/Users/ashok/Documents/PlatformIO/Projects/Hello World/.pio/build/nrf52840_dk/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/ashok/.platformio/packages/tool-ninja/ninja.exe cmTC_bf5af && [1/2] Building C object CMakeFiles/cmTC_bf5af.dir/src.c.obj
+FAILED: CMakeFiles/cmTC_bf5af.dir/src.c.obj 
+C:\Users\ashok\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-gcc.exe -Dcheck_fmacro_prefix_map_C__Users_ashok_Documents_PlatformIO_Projects_Hello_World_zephyr_CMAKE_SOURCE_DIR_C__nostartfiles__nostdlib__isystem__c__users_ashok__platformio_packages_toolchain_gccarmnoneeabi_bin____lib_gcc_arm_none_eabi_8_2_1_include___isystem__c__users_ashok__platformio_packages_toolchain_gccarmnoneeabi_bin____lib_gcc_arm_none_eabi_8_2_1_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0  -nostartfiles -nostdlib -isystem "c:/users/ashok/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/8.2.1/include" -isystem "c:/users/ashok/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/8.2.1/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0   -fmacro-prefix-map=C:/Users/ashok/Documents/PlatformIO/Projects/Hello World/zephyr=CMAKE_SOURCE_DIR -o CMakeFiles/cmTC_bf5af.dir/src.c.obj -c "C:/Users/ashok/Documents/PlatformIO/Projects/Hello World/.pio/build/nrf52840_dk/CMakeFiles/CMakeTmp/src.c"
+arm-none-eabi-gcc.exe: error: World/zephyr=CMAKE_SOURCE_DIR: No such file or directory
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
