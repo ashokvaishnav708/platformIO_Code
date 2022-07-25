@@ -3,6 +3,7 @@
         "device.h": "c",
         "util.h": "c",
         "lora.h": "c",
-        "log.h": "c"
+        "log.h": "c",
+        "sx12xx_common.h": "c"
     }
 }

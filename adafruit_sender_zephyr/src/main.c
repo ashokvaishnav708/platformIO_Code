@@ -18,8 +18,8 @@ BUILD_ASSERT(DT_NODE_HAS_STATUS(DEFAULT_RADIO_NODE, okay),
 #define ROLE_SENDER 0x01
 #define ROLE_RECEIVER 0x00
 
-//#define SENDER
-#define RECEIVER
+#define SENDER
+//#define RECEIVER
 
 #define LOG_LEVEL CONFIG_LOG_DEFAULT_LEVEL
 #include <logging/log.h>
@@ -88,7 +88,7 @@ void main(void)
 		/* Send data at 1s interval */
         #endif
         #ifdef RECEIVER
-        if ( lora_receive_ranging(lora_dev, &config, RangingAddress, RxtimeoutmS) )
+        if ( lora_receive_ranging(lora_dev, &config, RangingAddress, K_FOREVER) )
         {
             LOG_INF("Response Sent.");
         }
