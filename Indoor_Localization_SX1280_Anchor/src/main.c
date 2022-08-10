@@ -8,6 +8,7 @@
 #include <math.h>
 #include <logging/log.h>
 #include <drivers/hwinfo.h>
+#include <drivers/gpio.h>
 
 #define DEFAULT_RADIO_NODE DT_ALIAS(lora0)
 BUILD_ASSERT(DT_NODE_HAS_STATUS(DEFAULT_RADIO_NODE, okay),
@@ -34,22 +35,10 @@ BUILD_ASSERT(DT_NODE_HAS_STATUS(DEFAULT_RADIO_NODE, okay),
 #define NONE                    0xFF
 //
 
-/* Hardware Addresses of currently available nrf52840 Anchors 
-raspi03     48 d7 41 a7, 
-raspi06     1c 1b 65 6e, 
-raspi07     1d 5a 2a 62, 
-raspi10     e7 32 e3 a5, 
-raspi12     66 18 2c 94, 
-raspi16     50 9a 12 7c,
-*/
+#define LED0_NODE DT_ALIAS(led0)
 
-#define RASPI03     0x48d741a7
-#define RASPI06     0x1c1b656e
-#define RASPI07     0x1d5a2a62
-#define RASPI10     0xe732e3a5
-#define RASPI12     0x66182c94
-#define RASPI16     0x509a127c
-#define MASTER      0x33d6f416
+static const struct gpio_dt_spec led = GPIO_DT_SPEC_GET(LED0_NODE, gpios);
+
 
 LOG_MODULE_REGISTER(Indoor_Localization_Anchor);
 
@@ -77,63 +66,6 @@ struct __attribute__ ((__packed__)) Payload {
 };
 
 
-void get_host_coordinates(uint32_t host_id, struct Coordinates *coords)
-{
-    switch (host_id)
-    {
-        case RASPI03:   coords->flag = true;
-                        coords->x = 14.44;
-                        coords->y = 19.92;
-                        break;
-        case RASPI06:   coords->flag = true;
-                        coords->x = 19.93;
-                        coords->y = 19.92;
-                        break;
-        case RASPI07:   coords->flag = true;
-                        coords->x = 19.93;
-                        coords->y = 12.71;
-                        break;
-        case RASPI10:   coords->flag = true;
-                        coords->x = 19.93;
-                        coords->y = 0.0;
-                        break;
-        case RASPI12:   coords->flag = true;
-                        coords->x = 16.0;
-                        coords->y = 13.0;
-                        break;
-        case RASPI16:   coords->flag = true;
-                        coords->x = 0.0;
-                        coords->y = 19.92;
-                        break;
-        default:    coords->flag = false;
-                    coords->x = -1.0;
-                    coords->y = -1.0;
-    }
-}
-
-
-/*
-void receive(const struct device *sx1280_dev, uint8_t *payload_ptr)
-{
-    LOG_INF("RECEIVE MODE");
-    int16_t rssi;
-	int8_t snr;
-    int len;
-    len = -1;
-    while(len < 0)
-    {
-        len = lora_recv(sx1280_dev, payload_ptr, MAX_DATA_LEN, K_FOREVER,
-				&rssi, &snr);
-        if (!(len < 0))
-        {
-            LOG_INF("Received data: %x %x , (RSSI:%ddBm, SNR:%ddBm)",
-                payload.dev_id, payload.operation, rssi, snr);
-        }
-    }
-}
-
-*/
-
 void main(void)
 {
     // Hardware information gain
@@ -155,26 +87,25 @@ void main(void)
     int16_t rssi;
 	int8_t snr;
     int len;
-    bool ranging_req = false;
+    //bool ranging_req = false;
     bool ranging_done = false;
     uint8_t operation = RECEIVE;
 
 
-    get_host_coordinates(host_id, &dev_coords);
-
     LOG_INF("Device ID : %x", host_id);
-    if (dev_coords.flag == false)
-    {
-        LOG_ERR("Not a known Anchor.");
-        return;
-    }
-    LOG_INF("Known Anchor");
 
 
     if (!device_is_ready(lora_dev)) {
 		LOG_ERR("%s Device not ready", lora_dev->name);
 		return;
 	}
+
+    if (!device_is_ready(led.port))
+    {
+        LOG_ERR("Led not ready");
+        return;
+    }
+    gpio_pin_configure_dt(&led, GPIO_OUTPUT_ACTIVE);
 
     config.frequency = 2445000000;
 	config.bandwidth = BW_0800;
@@ -209,7 +140,8 @@ void main(void)
                                     &rssi, &snr);
                             if(len < 0)
                             {
-                                continue;
+                                operation = RECEIVE;
+                                break;
                             }
                             operation = payload.operation;
                             break;
@@ -218,6 +150,9 @@ void main(void)
                             operation = RECEIVE;
                             break;
                         }
+
+                        gpio_pin_set_dt(&led, GPIO_ACTIVE_HIGH);
+
                         dev_coords = payload.coords;
                         payload.host_id = host_id;
                         payload.operation = ALIVE_ACK;
@@ -230,6 +165,9 @@ void main(void)
                             break;
                         }
                         k_sleep(K_MSEC(15));
+
+                        gpio_pin_set_dt(&led, GPIO_ACTIVE_LOW);
+
                         operation = RECEIVE;
                         break;
             
@@ -265,14 +203,14 @@ void main(void)
             case START_RANGING: ret = lora_setup_ranging(lora_dev, &config, host_id, ROLE_RECEIVER);
                                 if(ret != true) {
                                     LOG_ERR("LoRa config failed.");
-                                    return;
+                                    operation = RECEIVE;
                                 }
-                                if( lora_receive_ranging(lora_dev, &config, host_id, K_FOREVER) )
-                                {
-                                    LOG_INF("Ranging Done");
-                                    ranging_done = true;
-                                    //ranging_req = false;
-                                }
+                                //k_sleep(K_MSEC(10));
+                                ret = lora_receive_ranging(lora_dev, &config, host_id, K_FOREVER);
+
+                                LOG_INF("Ranging Done");
+                                ranging_done = true;
+                                //ranging_req = false;
                                 operation = RECEIVE;
                                 break;
         

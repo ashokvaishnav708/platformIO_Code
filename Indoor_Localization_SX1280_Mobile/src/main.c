@@ -29,6 +29,7 @@ BUILD_ASSERT(DT_NODE_HAS_STATUS(DEFAULT_RADIO_NODE, okay),
 
 #define ALL_DONE_PKT            0x06
 #define START_RANGING           0x07
+#define ANCHOR_PKT              0x10
 #define NONE                    0xFF
 //
 
@@ -90,7 +91,7 @@ bool add_anchor(uint32_t host_id, struct Coordinates coords)
     struct Anchor *n_anchor = malloc(sizeof(struct Anchor));
     n_anchor->coords = coords;
     n_anchor->host_id = host_id;
-    n_anchor->distance = 0.0;
+    n_anchor->distance = -1;
     n_anchor->next = NULL;
 
     if(rear == NULL)
@@ -199,31 +200,59 @@ void receive(const struct device *sx1280_dev, uint8_t *payload_ptr)
 }
 */
 
-/*
+
 
 float square(float x)
 {
     return x*x;
 }
 
-float distance(struct Coordinates *coords1, struct Coordinates *coords2)
-{
-    return sqrt((square((coords1->x - coords2->x)) + square((coords1->y - coords2->y))));
-}
-
-struct Coordinates intersection()
-
-void cicle_intersection(struct Anchor *anchor1, struct Anchor *anchor2)
+struct Coordinates coordinate_set_intersection(struct Coordinates *coord1, struct Coordinates *coord2)
 {
 
 }
 
-struct Coordinates calc_device_location()
+void cicles_intersection(struct Anchor *anchor1, struct Anchor *anchor2, struct Coordinates *coord, struct Coordinates *coord_prime)
+{
+    //struct Coordinates coord, coord_prime;
+    float x2, y2, dx, dy;
+
+    float dist, a, h;
+    
+    dx = anchor1->coords.x - anchor2->coords.x;
+    dy = anchor1->coords.y - anchor2->coords.y;
+
+    dist = hypot(dx, dy);    
+
+    // Check if two circles are not same || circles do not meet || one circle is inside another one
+    if ((dist == 0.0) || (dist > (anchor1->distance + anchor2->distance)) 
+                        || (dist < fabs(anchor1->distance - anchor2->distance)))
+    {
+        coord->flag = false;
+        coord_prime->flag = false;
+    }
+    else 
+    {
+        a = ((square(anchor1->distance) - square(anchor2->distance) + square(dist)) / (2.0 * dist));
+        h = sqrt(square(anchor1->distance) - square(a));
+
+        x2 = anchor1->coords.x + (dx * a/dist);
+        y2 = anchor1->coords.y + (dy * a/dist);
+
+        coord->x = x2 - (dy * h/dist);
+        coord_prime->x = x2 + (dy * h/dist);
+        coord->flag = true;
+        coord->y = y2 + (dx * h/dist);
+        coord_prime->y = y2 - (dx * h/dist);
+        coord->flag = true;
+    }
+}
+
+struct Coordinates calc_dev_location()
 {
 
 }
 
-*/
 
 void main(void)
 {
@@ -250,7 +279,7 @@ void main(void)
 	int8_t snr;
     int ret, len;
     bool ranging_done = false;
-    uint8_t operation = RANGING_INIT;
+    uint8_t operation = RECEIVE;
 
     if (!device_is_ready(lora_dev)) {
 		LOG_ERR("%s Device not ready", lora_dev->name);
@@ -272,7 +301,7 @@ void main(void)
         return;
     }
 
-    BEGIN:
+    //BEGIN:
 	while (1) {
         
         // Setup LoRa Device
@@ -289,62 +318,73 @@ void main(void)
         switch(operation)
         {
             case RECEIVE:   LOG_INF("RECEIVE MODE.");
-                            len = lora_recv(lora_dev, payload_ptr, MAX_DATA_LEN, K_FOREVER,
+                            len = lora_recv(lora_dev, payload_ptr, MAX_DATA_LEN, K_MSEC(1000),
                                     &rssi, &snr);
                             if(len < 0)
                             {
-                                continue;
+                                if(len == -(EAGAIN)) {
+                                    remove_all_anchors();
+                                    operation = RANGING_INIT;
+                                }
+                                else operation = RECEIVE;
                             }
-                            operation = payload.operation;
+                            else
+                            {
+                                if (payload.operation == RANGING_INIT) operation = RECEIVE;
+                                else operation = payload.operation;
+                            }
                             break;
             case RANGING_INIT:  LOG_INF("RANGING INIT PKT BROADCASTED.");
                                 payload.operation = RANGING_INIT;
                                 payload.host_id = host_id;
                                 payload.coords = dev_coords;
                                 
-                                k_sleep(K_MSEC(30));
-                                ret = lora_send(lora_dev, payload_ptr, sizeof(payload));
-                                if (ret < 0)
-                                {
-
-                                    operation = RANGING_INIT;
-                                    break;
-                                }
                                 k_sleep(K_MSEC(20));
+                                ret = lora_send(lora_dev, payload_ptr, sizeof(payload));
+                                k_sleep(K_MSEC(15));
+
                                 operation = RECEIVE;
                                 break;
-            case RANGING_ACK:   if(!add_anchor(payload.host_id, payload.coords))
+            case ANCHOR_PKT:   if(!add_anchor(payload.host_id, payload.coords))
                                 {
                                     LOG_INF("Received Already Existing Anchor.");
                                 }
                                 operation = RECEIVE;
                                 break;
-            case ALL_DONE_PKT:  LOG_INF("ALL ANCHORS RECEIVED.");
-                                //show_anchors();
-                                //operation = RECEIVE;
-                                operation = START_RANGING;
-                                break;
-            case START_RANGING: k_sleep(K_MSEC(20));
-                                
-                                    ret = lora_setup_ranging(lora_dev, &config, host_id, ROLE_SENDER);
-                                    if(ret != true) {
-                                        LOG_ERR("LoRa config failed.");
-                                        return;
-                                    }
+            case ALL_DONE_PKT:  if(payload.host_id != host_id)
+                                {
+                                    operation = RECEIVE;
+                                    break;
                                 }
+                                LOG_INF("ALL ANCHORS RECEIVED.");
+                                //show_anchors();
+                                operation = RECEIVE;
+
+                                break;
+            case START_RANGING: if (payload.host_id != host_id)
+                                {
+                                    operation = RECEIVE;
+                                    break;
+                                }
+                                k_sleep(K_MSEC(10));
+
+                                lora_setup_ranging(lora_dev, &config, host_id, ROLE_SENDER);
+
                                 anchor_ptr = front;
                                 do {
-                                    lora_setup_ranging(lora_dev, &config, (anchor_ptr->host_id), ROLE_SENDER);
 
-                                    ranging_result = lora_transmit_ranging(lora_dev, &config, (anchor_ptr->host_id), TxtimeoutmS);
+                                    k_sleep(K_MSEC(10));
+                                    ranging_result = lora_transmit_ranging(lora_dev, &config, (anchor_ptr->host_id));
                                     if(ranging_result.status != false)
                                     {
                                         anchor_ptr->distance = ranging_result.distance; // Distance in cm.
                                         
                                     }
-                                    else{
-                                        anchor_ptr->distance = 0.0;
+                                    else {
+                                        LOG_INF("RANGING FAILED.");
+                                        anchor_ptr->distance = -1;
                                     }
+                                    //LOG_INF(" Ranging Anchor : %x", anchor_ptr->host_id);
                                     anchor_ptr = anchor_ptr->next;
                                 }while(anchor_ptr != NULL);
                                 show_anchors();

@@ -15,7 +15,16 @@ BUILD_ASSERT(DT_NODE_HAS_STATUS(DEFAULT_RADIO_NODE, okay),
 #define MAX_DATA_LEN 255
 
 //Anchors
-#define MAX_ANCHORS 04
+/* Hardware Addresses of currently available nrf52840 Anchors 
+raspi03     48 d7 41 a7, 
+raspi06     1c 1b 65 6e, 
+raspi07     1d 5a 2a 62, 
+raspi10     e7 32 e3 a5, 
+raspi12     66 18 2c 94, 
+raspi16     50 9a 12 7c,
+*/
+
+#define MAX_ANCHORS 06
 
 #define RASPI03     0x48d741a7
 #define RASPI06     0x1c1b656e
@@ -35,9 +44,11 @@ BUILD_ASSERT(DT_NODE_HAS_STATUS(DEFAULT_RADIO_NODE, okay),
 #define SEND_ACK_PKT            0x04
 #define RECEIVE                 0x05
 
+#define START_RANGING           0x07
 #define ALIVE                   0x08
 #define ALIVE_ACK               0x09
 #define ALL_DONE_PKT            0x06
+#define ANCHOR_PKT              0x10
 #define NONE                    0xFF
 //
 
@@ -107,17 +118,31 @@ void get_host_coordinates(uint32_t host_id, struct Coordinates *coords)
     }
 }
 
-void show_alive_anchors()
+int get_alive_anchors_count()
 {
     int count = 0;
+    int alive = 0;
     while(count < MAX_ANCHORS)
     {
         if (anchor_alive[count] == true)
         {
+            alive ++;
             LOG_INF(" Anchor : %x", anchor_id[count]);
         }
         count++;
     }
+    return alive;
+}
+
+void reset_anchors_status()
+{
+    int count = 0;
+    while(count < MAX_ANCHORS)
+    {
+        anchor_alive[count] = false;
+        count++;
+    }
+
 }
 
 void main(void)
@@ -129,7 +154,7 @@ void main(void)
     uint32_t host_id = (hwid[0] << 24) | (hwid[1] << 16) | (hwid[2] << 8) | hwid[3];
     struct Coordinates dev_coords;
 
-    struct Anchor anchor[MAX_ANCHORS];
+    //struct Anchor anchor[MAX_ANCHORS];
     
 
     const struct device *lora_dev = DEVICE_DT_GET(DEFAULT_RADIO_NODE);
@@ -138,9 +163,10 @@ void main(void)
     int ret, len;
     int16_t rssi;
 	int8_t snr;
-    int anchor_counter = 0;
+    bool ranging_req_possible = false;
     int count = 0;
-    uint8_t operation = ALIVE;
+    uint32_t ranging_req_id = 0x0000;
+    uint8_t operation = RECEIVE;
 
     // Payload declaration
     struct Payload payload;
@@ -169,43 +195,16 @@ void main(void)
         return;
     }
 
-    //
-    /*
-    while(anchor_counter < MAX_ANCHORS)
-    {
-        anchor[anchor_counter].alive = false;
-        anchor[anchor_counter].host_id = anchor_id[anchor_counter]; 
-        get_host_coordinates(anchor[anchor_counter].host_id, &anchor[anchor_counter].coords); 
-
-        payload.operation = ALIVE;
-        payload.host_id = anchor_id[anchor_counter];
-        get_host_coordinates(payload.host_id, &payload.coords);
-
-        k_sleep(K_MSEC(20));
-        ret = lora_send(lora_dev, payload_ptr, sizeof(payload));
-        if(ret < 0) {
-            LOG_ERR("ALIVE PKT SENDING FAILED.");
-        }
-        k_sleep(K_MSEC(15));
-        LOG_INF("ALIVE PKT SENT.");
-
-        len = lora_recv(lora_dev, payload_ptr, MAX_DATA_LEN, K_MSEC(20),
-                                    &rssi, &snr);
-        if(len < 0)
-        {
-            anchor_counter ++;
-            continue;
-        }
-        if (payload.operation == ALIVE_ACK && payload.host_id = anchor_id[anchor_counter])
-        {
-            anchor[anchor_counter].alive = true;
-        }
-        anchor_counter ++;
-    }
-*/
     count = 0;
-
-    BEGIN:
+    /*
+    while(count < MAX_ANCHORS)
+    {
+        anchor_alive[count] = true;
+        count++;
+    }
+    count = 0;
+    */
+    //BEGIN:
     while(1)
     {
         
@@ -214,17 +213,24 @@ void main(void)
             case RECEIVE:   LOG_INF("RECEIVE MODE.");
                             len = lora_recv(lora_dev, payload_ptr, MAX_DATA_LEN, K_MSEC(5000),
                                     &rssi, &snr);
+                            //LOG_INF("LEN : %d", len);
                             if(len < 0)
                             {
-                                if (len == EAGAIN) operation = ALIVE;
+                                if (len == -(EAGAIN)) {
+                                    operation = ALIVE;
+                                    ranging_req_possible = false;
+                                    reset_anchors_status();
+                                    count = 0;
+                                } 
                                 else operation = RECEIVE;
                                 break;
                             }
                             operation = payload.operation;
                             break;
             
-            case ALIVE: if (anchor_counter == MAX_ANCHORS) {
-                            show_alive_anchors();
+            case ALIVE: if (count == MAX_ANCHORS) {
+                            if (get_alive_anchors_count() == 0) ranging_req_possible = false;
+                            else ranging_req_possible = true;
                             operation = RECEIVE;
                             count = 0;
                             break;
@@ -233,46 +239,94 @@ void main(void)
                         payload.host_id = anchor_id[count];
                         get_host_coordinates(payload.host_id, &payload.coords);
 
+                        anchor_alive[count] = false;
                         k_sleep(K_MSEC(20));
                         ret = lora_send(lora_dev, payload_ptr, sizeof(payload));
-                        if(ret < 0) {
-                            k_sleep(K_MSEC(15));
-                            operation = ALIVE;
-                            LOG_ERR("ALIVE PKT SENDING FAILED.");
-                            break;
-                        }
                         k_sleep(K_MSEC(15));
+
                         LOG_INF("ALIVE PKT SENT.");
                         operation = ALIVE_ACK;
                         break;
-            case ALIVE_ACK: len = lora_recv(lora_dev, payload_ptr, MAX_DATA_LEN, K_MSEC(20),
+
+            case ALIVE_ACK: len = lora_recv(lora_dev, payload_ptr, MAX_DATA_LEN, K_MSEC(50),
                                     &rssi, &snr);
                             if(len < 0)
                             {
                                 LOG_INF("NOT ALIVE.");
-                                count++;
                                 operation = ALIVE;
-                                break;
+                                
                             }
-                            if(payload.operation == ALIVE_ACK)
+                            else if(payload.operation == ALIVE_ACK)
                             {
-                                if(payload.host_id == anchor_id[anchor_counter]) {
+                                if(payload.host_id == anchor_id[count]) {
                                     anchor_alive[count] = true;
                                     LOG_INF("ANCHOR ALIVE ACK.");
-                                    anchor_counter++;
+                                    //count++;
                                     operation = ALIVE;
-                                    break;
                                 }        
                             }
                             count++;
                             break;
                             
-            
-            /*
-            case RANGING_INIT:  operation = SEND_ACK_PKT;
-                                //k_sleep(K_MSEC(20));
+            case RANGING_INIT:  LOG_INF("RANGING REQUEST RECEIVED.");
+                                if (ranging_req_possible)
+                                {
+                                    LOG_INF("RANGING POSSIBLE");
+                                    ranging_req_id = payload.host_id;
+                                    count = 0;
+                                    operation = ANCHOR_PKT;
+                                    ranging_req_possible = false;
+                                }
+
+                                //else if (count == 0) operation = ALIVE;
+                                else operation = ALIVE;
+                                break;
+                                
+            case ANCHOR_PKT:    if (count == MAX_ANCHORS)
+                                {
+                                    payload.operation = ALL_DONE_PKT;
+                                    payload.host_id = ranging_req_id;
+                                    payload.coords = dev_coords;
+
+                                    k_sleep(K_MSEC(20));
+                                    ret = lora_send(lora_dev, payload_ptr, sizeof(payload));
+                                    k_sleep(K_MSEC(15));
+
+                                    count = 0;
+                                    operation = START_RANGING;
+                                    //ranging_req_possible =  true;
+                                    break;
+                                }
+                                
+                                else if (anchor_alive[count] == true)
+                                {
+                                    payload.host_id = anchor_id[count];
+                                    payload.operation = ANCHOR_PKT;
+                                    get_host_coordinates(anchor_id[count], &payload.coords);
+
+                                    k_sleep(K_MSEC(20));
+                                    ret = lora_send(lora_dev, payload_ptr, sizeof(payload));
+                                    k_sleep(K_MSEC(15));
+                                    operation = ANCHOR_PKT;
+                                    
+                                }
+                                count++;
                                 break;
             
+            case START_RANGING: payload.operation = START_RANGING;
+                                payload.host_id = ranging_req_id;
+                                payload.coords = dev_coords;
+                                
+                                k_sleep(K_MSEC(20));
+                                ret = lora_send(lora_dev, payload_ptr, sizeof(payload));
+                                k_sleep(K_MSEC(15));
+
+                                ranging_req_possible =  false;
+                                reset_anchors_status();
+                                count = 0;
+                                operation = RECEIVE;
+                                break;
+            /*
             case SEND_ACK_PKT:  if(anchor_counter == MAX_ANCHORS)
                                 {
                                     payload.operation = ALL_DONE_PKT;
