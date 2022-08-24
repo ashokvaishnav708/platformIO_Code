@@ -108,8 +108,8 @@ void main(void)
     gpio_pin_configure_dt(&led, GPIO_OUTPUT_ACTIVE);
 
     config.frequency = 2445000000;
-	config.bandwidth = BW_0800;
-	config.datarate = SF_8;
+	config.bandwidth = BW_1600;
+	config.datarate = SF_7;
 	config.preamble_len = 12;
 	config.coding_rate = CR_4_5;
 	config.tx_power = 10;

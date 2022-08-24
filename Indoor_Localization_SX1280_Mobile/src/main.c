@@ -108,28 +108,33 @@ bool add_anchor(uint32_t host_id, struct Coordinates coords)
     return true;
 }
 
-bool remove_anchor(struct Anchor *anchor_ptr)
+void remove_anchor(struct Anchor *prev_anchor, struct Anchor *anchor_ptr)
 {
-    return false;
+    if (anchor_ptr->next == NULL) {
+        if (prev_anchor == NULL) rear = NULL;
+        else rear = prev_anchor;
+    }
+    else {
+        prev_anchor->next = anchor_ptr->next;
+    }
+    free(anchor_ptr);
+    anchor_count--;
 }
 
-bool remove_all_anchors()
+void remove_all_anchors()
 {
     struct Anchor *temp_anchor;
-    if (front == NULL)
+    if (front != NULL)
     {
-        rear = NULL;
-        anchor_count = 0;
-        return false;
+        do {
+            temp_anchor = front;
+            front = front->next;
+            free(temp_anchor);
+        }while(front != NULL);
     }
-    do {
-        temp_anchor = front;
-        front = front->next;
-        free(temp_anchor);
-    }while(front != NULL);
+    
     rear = NULL;
     anchor_count = 0;
-    return true;
 }
 
 
@@ -207,12 +212,21 @@ float square(float x)
     return x*x;
 }
 
-struct Coordinates coordinate_set_intersection(struct Coordinates *coord1, struct Coordinates *coord2)
+bool equate_coordinates(struct Coordinates *coord1, struct Coordinates *coord2)
 {
-
+    if ((coord1->x) == (coord2->x) && (coord1->y) == (coord2->y)) return true;
+    else return false;
 }
 
-void cicles_intersection(struct Anchor *anchor1, struct Anchor *anchor2, struct Coordinates *coord, struct Coordinates *coord_prime)
+bool coordinates_set_intersection(struct Coordinates *coord0, struct Coordinates *coord, struct Coordinates *coord_prime)
+{
+    if (equate_coordinates(coord0, coord)) return true;
+    else if(equate_coordinates(coord0, coord_prime)) return true;
+    else return false;    
+}
+
+
+void circles_intersection(struct Anchor *anchor1, struct Anchor *anchor2, struct Coordinates *coord, struct Coordinates *coord_prime)
 {
     //struct Coordinates coord, coord_prime;
     float x2, y2, dx, dy;
@@ -250,7 +264,39 @@ void cicles_intersection(struct Anchor *anchor1, struct Anchor *anchor2, struct 
 
 struct Coordinates calc_dev_location()
 {
+    struct Coordinates coord, coord_prime;
+    struct Coordinates dev_coord, temp_coord;
+    struct Anchor *anchor_ptr;
+    bool first_iter = true;
+    dev_coord.flag = NULL;
+    temp_coord.flag = NULL;
 
+    coord.flag = false;
+    coord_prime.flag = false;
+
+    anchor_ptr = front;
+    circles_intersection(anchor_ptr, anchor_ptr->next, &dev_coord, &temp_coord);
+    anchor_ptr = anchor_ptr->next;
+    do {
+        circles_intersection(anchor_ptr, anchor_ptr->next, &coord, &coord_prime);
+        if (first_iter) {
+            first_iter = false;
+            if(coordinates_set_intersection(&temp_coord, &coord, &coord_prime)) {
+                first_iter = true;
+                dev_coord = temp_coord;
+            }
+        }
+        if(!first_iter) {
+            if ( !(coordinates_set_intersection(&dev_coord, &coord, &coord_prime)) ) {
+                LOG_ERR("No intersection point.");
+                dev_coord.flag = false;
+                break;
+            }
+        }
+        first_iter = false;
+        anchor_ptr = anchor_ptr->next;
+    }while(anchor_ptr->next != NULL);
+    return dev_coord;
 }
 
 
@@ -272,6 +318,8 @@ void main(void)
     payload_ptr = &payload;
 
     struct Anchor *anchor_ptr;
+    struct Anchor *prev_anchor = NULL;
+    struct Anchor *temp_anchor;
     struct lora_ranging_params ranging_result;
     
     // General Variables
@@ -287,8 +335,8 @@ void main(void)
 	}
 
     config.frequency = 2445000000;
-	config.bandwidth = BW_0800;
-	config.datarate = SF_8;
+	config.bandwidth = BW_1600;
+	config.datarate = SF_7;
 	config.preamble_len = 12;
 	config.coding_rate = CR_4_5;
 	config.tx_power = 10;
@@ -379,16 +427,31 @@ void main(void)
                                     {
                                         anchor_ptr->distance = ranging_result.distance; // Distance in cm.
                                         
+                                        prev_anchor = anchor_ptr;
+                                        anchor_ptr = anchor_ptr->next;    
                                     }
                                     else {
                                         LOG_INF("RANGING FAILED.");
                                         anchor_ptr->distance = -1;
+
+                                        temp_anchor = anchor_ptr;
+                                        anchor_ptr = anchor_ptr->next;
+                                        remove_anchor(prev_anchor, temp_anchor);
                                     }
                                     //LOG_INF(" Ranging Anchor : %x", anchor_ptr->host_id);
-                                    anchor_ptr = anchor_ptr->next;
+                                    
                                 }while(anchor_ptr != NULL);
                                 show_anchors();
+                                prev_anchor = NULL;
                                 ranging_done = true;
+                                /*
+                                if(anchor_count >= 3)
+                                {
+                                    dev_coords = calc_dev_location();
+                                    if (dev_coords.flag == false) LOG_ERR("Location Ambiguious");
+                                    else LOG_INF("Device Location : (%d, %d)", dev_coords.x, dev_coords.y);
+                                }
+                                */
                                 operation = RECEIVE;
                                 break;
 
