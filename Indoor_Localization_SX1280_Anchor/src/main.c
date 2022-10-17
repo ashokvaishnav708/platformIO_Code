@@ -32,6 +32,7 @@ BUILD_ASSERT(DT_NODE_HAS_STATUS(DEFAULT_RADIO_NODE, okay),
 #define ALIVE                   0x08
 #define ALIVE_ACK               0x09
 #define START_RANGING           0x07
+#define RE_RANGING_PKT          0x11
 #define NONE                    0xFF
 //
 
@@ -78,11 +79,13 @@ void main(void)
     const struct device *lora_dev = DEVICE_DT_GET(DEFAULT_RADIO_NODE);
     struct lora_modem_config config;
 
+    struct lora_ranging_params ranging_result;
+
     // Payload declaration
     struct Payload payload;
     uint8_t *payload_ptr;
     payload_ptr = &payload;
-    
+
     int ret;
     int16_t rssi;
 	int8_t snr;
@@ -130,8 +133,6 @@ void main(void)
             }
             ranging_done = false;
         }
-        // Setup LoRa Device
-
         
         switch (operation)
         {
@@ -171,35 +172,6 @@ void main(void)
                         operation = RECEIVE;
                         break;
             
-            /*
-            case RANGING_INIT:  LOG_INF("RANGING INIT PKT ARRIVED.");
-                                ranging_req = true;
-                                operation = RECEIVE;
-                                break;
-
-            case SEND_ACK_PKT:  if(ranging_req && payload.host_id == host_id) {    
-                                    LOG_INF("SENDING RANGING ACK PKT.");
-                                    payload.coords = dev_coords;
-                                    payload.host_id = host_id;
-                                    payload.operation = RANGING_ACK;
-
-                                    k_sleep(K_MSEC(30));
-                                    ret = lora_send(lora_dev, payload_ptr, sizeof(payload));
-                                    if(ret < 0) {
-                                        LOG_ERR("Ranging Ack failed.");
-                                    }
-                                    k_sleep(K_MSEC(20));
-                                    //operation = RECEIVE;
-                                    LOG_INF("SENT RANGING ACK PKT.");
-                                    //ranging_req = false;
-                                    operation = START_RANGING;
-                                } 
-                                else {
-                                    //LOG_INF("WRONG PACKET.");
-                                    operation = RECEIVE;
-                                }
-                                break;
-            */
             case START_RANGING: ret = lora_setup_ranging(lora_dev, &config, host_id, ROLE_RECEIVER);
                                 if(ret != true) {
                                     LOG_ERR("LoRa config failed.");
@@ -207,8 +179,22 @@ void main(void)
                                 }
                                 //k_sleep(K_MSEC(10));
                                 ret = lora_receive_ranging(lora_dev, &config, host_id, K_FOREVER);
+                                
+                                //k_sleep(K_MSEC(5));
+                                ranging_result = lora_transmit_ranging(lora_dev, &config, host_id);
+                                
+                                if (ranging_result.status != false) payload.coords.flag = true;
+                                else payload.coords.flag = false;
+                                k_sleep(K_MSEC(10));
+                                lora_config(lora_dev, &config);
+        
+                                payload.operation = RE_RANGING_PKT;
+                                payload.coords.x = ranging_result.distance;
+                                payload.coords.y = ranging_result.RSSIVal;
+                                
+                                lora_send(lora_dev, payload_ptr, sizeof(payload));
+                                k_sleep(K_MSEC(20));
 
-                                LOG_INF("Ranging Done");
                                 ranging_done = true;
                                 //ranging_req = false;
                                 operation = RECEIVE;
@@ -216,52 +202,6 @@ void main(void)
         
             default: operation = RECEIVE;
         }
-
-
-
-
-
-        /*
-		// Receive Mode
-        recv_pkt:
-        //receive(lora_dev, payload_ptr);
-        len = lora_recv(lora_dev, payload_ptr, MAX_DATA_LEN, K_FOREVER,
-				&rssi, &snr);
-
-        LOG_INF("Received data: %x %x",
-            payload.host_id, payload.operation);
-        if (payload.operation != RANGING_INIT) goto recv_pkt;
-        
-        
-        //LOG_INF("Coordinates : (%d, %d).", payload.coords.x, payload.coords.y);
-
-        // Send back device address with ranging mode slave and it's coordinates
-
-        payload.coords = dev_coords;
-        payload.host_id = host_id;
-        payload.operation = RANGING_ACK;
-        
-        ret = lora_send(lora_dev, payload_ptr, sizeof(payload));
-        if(ret < 0)
-        {
-            LOG_ERR("Ranging Ack failed.");
-            return;
-        }
-        
-        k_sleep(K_MSEC(15));
-        
-        ret = lora_setup_ranging(lora_dev, &config, host_id, ROLE_RECEIVER);
-        if(ret != true) {
-            LOG_ERR("LoRa config failed.");
-            return;
-        }
-        
-        if ( !(lora_receive_ranging(lora_dev, &config, host_id, RxtimeoutmS) ))
-        {
-            LOG_ERR("Ranging Timeout.");
-        }
-        */
-        
 	} 
 }
 

@@ -16,6 +16,7 @@
 		label = "sx1280";
 		reset-gpios = <&arduino_header 15 GPIO_ACTIVE_LOW>;
 		dio-gpios = <&arduino_header 14 GPIO_ACTIVE_HIGH>;
+		busy-gpios = <&arduino_header 13 GPIO_ACTIVE_HIGH>;
 		spi-max-frequency = <1000000>;
 		power-amplifier-output = "pa-boost";
 	};

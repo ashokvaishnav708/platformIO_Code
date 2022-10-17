@@ -1,0 +1,2362 @@
+[00:00:07.522,979] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:07.524,566] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -77 Dist: 2695␛[0m
+[00:00:07.656,585] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:07.658,172] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -77 Dist: 2388␛[0m
+[00:00:07.790,161] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:07.791,748] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -77 Dist: 2542␛[0m
+[00:00:07.923,736] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:07.925,323] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -91 Dist: 2677␛[0m
+[00:00:08.057,312] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:08.058,898] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -76 Dist: 2965␛[0m
+[00:00:08.190,826] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:08.192,413] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -77 Dist: 2244␛[0m
+[00:00:08.324,432] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:08.326,019] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -77 Dist: 2749␛[0m
+[00:00:08.458,007] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:08.459,594] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -78 Dist: 2794␛[0m
+[00:00:08.591,583] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:08.593,170] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -79 Dist: 2740␛[0m
+[00:00:08.725,158] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:08.726,745] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -78 Dist: 2415␛[0m
+[00:00:08.858,673] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:08.860,260] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -80 Dist: 2731␛[0m
+[00:00:08.992,279] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:08.993,865] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -81 Dist: 2983␛[0m
+[00:00:09.125,854] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:09.127,441] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -80 Dist: 2361␛[0m
+[00:00:09.259,429] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:09.261,016] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -80 Dist: 2487␛[0m
+[00:00:09.393,005] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:09.394,592] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -80 Dist: 2605␛[0m
+[00:00:09.526,519] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:09.528,106] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -80 Dist: 2614␛[0m
+[00:00:09.660,125] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:09.661,712] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -81 Dist: 2524␛[0m
+[00:00:09.793,701] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:09.795,288] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -82 Dist: 2749␛[0m
+[00:00:09.927,276] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:09.928,863] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -82 Dist: 2244␛[0m
+[00:00:10.060,852] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:10.062,438] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -85 Dist: 2478␛[0m
+[00:00:10.194,366] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:10.195,953] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2091␛[0m
+[00:00:10.327,972] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:10.329,559] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2704␛[0m
+[00:00:10.461,547] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:10.463,134] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -80 Dist: 2334␛[0m
+[00:00:10.595,123] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:10.596,710] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2091␛[0m
+[00:00:10.728,698] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:10.730,285] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 1694␛[0m
+[00:00:10.862,213] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:10.863,800] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -78 Dist: 2569␛[0m
+[00:00:10.995,819] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:10.997,406] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -79 Dist: 2641␛[0m
+[00:00:11.129,394] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:11.130,981] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -79 Dist: 2560␛[0m
+[00:00:11.262,969] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:11.264,556] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -76 Dist: 2938␛[0m
+[00:00:11.396,545] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:11.398,132] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -76 Dist: 2677␛[0m
+[00:00:11.530,059] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:11.531,646] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -78 Dist: 3055␛[0m
+[00:00:11.663,665] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:11.665,252] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -79 Dist: 2370␛[0m
+[00:00:11.797,241] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:11.798,828] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -79 Dist: 3019␛[0m
+[00:00:11.930,816] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:11.932,403] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -82 Dist: 2731␛[0m
+[00:00:12.064,392] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:12.065,979] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -78 Dist: 2587␛[0m
+[00:00:12.197,906] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:12.199,523] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -80 Dist: 2623␛[0m
+[00:00:12.331,512] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:12.333,099] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -79 Dist: 3028␛[0m
+[00:00:12.465,087] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:12.466,674] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -80 Dist: 2641␛[0m
+[00:00:12.598,663] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:12.600,250] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 2352␛[0m
+[00:00:12.732,238] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:12.733,825] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -94 Dist: 3046␛[0m
+[00:00:12.865,753] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:12.867,340] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -80 Dist: 2641␛[0m
+[00:00:12.999,359] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:13.000,946] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -76 Dist: 2190␛[0m
+[00:00:13.132,934] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:13.134,521] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -82 Dist: 2830␛[0m
+[00:00:13.266,510] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:13.268,096] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -76 Dist: 2596␛[0m
+[00:00:13.400,085] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:13.401,672] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -76 Dist: 2983␛[0m
+[00:00:13.533,599] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:13.535,186] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -77 Dist: 2911␛[0m
+[00:00:13.667,205] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:13.668,792] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -79 Dist: 2379␛[0m
+[00:00:13.800,781] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:13.802,368] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -77 Dist: 2496␛[0m
+[00:00:13.934,356] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:13.935,943] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -76 Dist: 2713␛[0m
+[00:00:14.067,932] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:14.069,519] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -76 Dist: 2686␛[0m
+[00:00:14.201,446] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:14.203,033] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -76 Dist: 2235␛[0m
+[00:00:14.335,052] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:14.336,639] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -76 Dist: 2839␛[0m
+[00:00:14.468,627] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:14.470,214] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -77 Dist: 2794␛[0m
+[00:00:14.602,203] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:14.603,790] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -79 Dist: 2379␛[0m
+[00:00:14.735,778] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:14.737,365] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -80 Dist: 2560␛[0m
+[00:00:14.869,293] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:14.870,880] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -78 Dist: 2695␛[0m
+[00:00:15.002,899] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:15.004,486] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -79 Dist: 2596␛[0m
+[00:00:15.136,474] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:15.138,061] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -85 Dist: 2785␛[0m
+[00:00:15.270,050] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:15.271,636] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -85 Dist: 2605␛[0m
+[00:00:15.403,625] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:15.405,212] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -85 Dist: 2965␛[0m
+[00:00:15.537,139] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:15.538,726] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2785␛[0m
+[00:00:15.670,745] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:15.672,332] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -80 Dist: 2424␛[0m
+[00:00:15.804,321] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:15.805,908] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -92 Dist: 3299␛[0m
+[00:00:15.937,896] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:15.939,483] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -82 Dist: 2578␛[0m
+[00:00:16.071,472] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:16.073,059] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -82 Dist: 2560␛[0m
+[00:00:16.204,986] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:16.206,573] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 2857␛[0m
+[00:00:16.338,592] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:16.340,179] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -82 Dist: 2334␛[0m
+[00:00:16.472,167] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:16.473,754] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 3091␛[0m
+[00:00:16.605,743] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:16.607,330] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -82 Dist: 2803␛[0m
+[00:00:16.739,318] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:16.740,905] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2560␛[0m
+[00:00:16.872,833] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:16.874,420] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -86 Dist: 2298␛[0m
+[00:00:17.006,439] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:17.008,026] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -81 Dist: 2298␛[0m
+[00:00:17.140,014] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:17.141,601] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -82 Dist: 3055␛[0m
+[00:00:17.273,590] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:17.275,177] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -82 Dist: 3055␛[0m
+[00:00:17.407,165] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:17.408,752] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -82 Dist: 2893␛[0m
+[00:00:17.540,679] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:17.542,297] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 2524␛[0m
+[00:00:17.674,285] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:17.675,872] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2515␛[0m
+[00:00:17.807,861] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:17.809,448] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -80 Dist: 2857␛[0m
+[00:00:17.941,436] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:17.943,023] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -82 Dist: 2208␛[0m
+[00:00:18.075,012] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:18.076,599] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 3164␛[0m
+[00:00:18.208,526] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:18.210,113] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -81 Dist: 3272␛[0m
+[00:00:18.342,132] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:18.343,719] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -81 Dist: 2884␛[0m
+[00:00:18.475,708] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:18.477,294] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -82 Dist: 2803␛[0m
+[00:00:18.609,283] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:18.610,870] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -86 Dist: 2136␛[0m
+[00:00:18.742,858] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:18.744,445] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -85 Dist: 2677␛[0m
+[00:00:18.876,373] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:18.877,990] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2866␛[0m
+[00:00:19.009,979] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:19.011,566] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -82 Dist: 2785␛[0m
+[00:00:19.143,554] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:19.145,141] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -81 Dist: 3128␛[0m
+[00:00:19.277,130] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:19.278,717] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -81 Dist: 2992␛[0m
+[00:00:19.410,705] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:19.412,292] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -80 Dist: 2334␛[0m
+[00:00:19.544,219] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:19.545,837] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -80 Dist: 2668␛[0m
+[00:00:19.677,825] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:19.679,412] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -82 Dist: 2677␛[0m
+[00:00:19.811,401] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:19.812,988] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -82 Dist: 2812␛[0m
+[00:00:19.944,976] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:19.946,563] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -80 Dist: 2758␛[0m
+[00:00:20.078,552] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:20.080,139] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -79 Dist: 2947␛[0m
+[00:00:20.212,066] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:20.213,684] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -80 Dist: 2496␛[0m
+[00:00:20.345,672] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:20.347,259] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -80 Dist: 2496␛[0m
+[00:00:20.479,248] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:20.480,834] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -79 Dist: 2839␛[0m
+[00:00:20.612,823] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:20.614,410] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -80 Dist: 2902␛[0m
+[00:00:20.746,398] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:20.747,985] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2911␛[0m
+[00:00:20.879,913] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:20.881,530] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2713␛[0m
+[00:00:21.013,519] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:21.015,106] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2830␛[0m
+[00:00:21.147,094] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:21.148,681] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2307␛[0m
+[00:00:21.280,670] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:21.282,257] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2478␛[0m
+[00:00:21.414,245] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:21.415,832] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2533␛[0m
+[00:00:21.547,760] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:21.549,346] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -82 Dist: 2515␛[0m
+[00:00:21.681,365] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:21.682,952] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -81 Dist: 2650␛[0m
+[00:00:21.814,941] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:21.816,528] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -81 Dist: 2361␛[0m
+[00:00:21.948,516] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:21.950,103] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -82 Dist: 2830␛[0m
+[00:00:22.082,092] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:22.083,679] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 2821␛[0m
+[00:00:22.215,606] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:22.217,193] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -85 Dist: 2677␛[0m
+[00:00:22.349,212] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:22.350,799] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 3073␛[0m
+[00:00:22.482,788] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:22.484,375] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -80 Dist: 2866␛[0m
+[00:00:22.616,363] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:22.617,950] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -82 Dist: 2965␛[0m
+[00:00:22.749,938] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:22.751,525] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 2542␛[0m
+[00:00:22.883,453] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:22.885,070] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -85 Dist: 2713␛[0m
+[00:00:23.017,059] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:23.018,646] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -85 Dist: 2397␛[0m
+[00:00:23.150,634] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:23.152,221] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -86 Dist: 2442␛[0m
+[00:00:23.284,210] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:23.285,797] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 3100␛[0m
+[00:00:23.417,785] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:23.419,372] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -85 Dist: 2920␛[0m
+[00:00:23.551,300] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:23.552,886] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -85 Dist: 2722␛[0m
+[00:00:23.684,906] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:23.686,492] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 2821␛[0m
+[00:00:23.818,481] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:23.820,068] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 2974␛[0m
+[00:00:23.952,056] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:23.953,643] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -85 Dist: 2587␛[0m
+[00:00:24.085,632] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:24.087,219] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -86 Dist: 2415␛[0m
+[00:00:24.219,146] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:24.220,764] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2938␛[0m
+[00:00:24.352,752] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:24.354,339] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -80 Dist: 2388␛[0m
+[00:00:24.486,328] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:24.487,915] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -79 Dist: 2785␛[0m
+[00:00:24.619,903] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:24.621,490] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -82 Dist: 3046␛[0m
+[00:00:24.753,479] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:24.755,065] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -87 Dist: 2433␛[0m
+[00:00:24.886,993] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:24.888,580] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -87 Dist: 2992␛[0m
+[00:00:25.020,599] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:25.022,186] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -88 Dist: 2821␛[0m
+[00:00:25.154,174] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:25.155,761] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -88 Dist: 2460␛[0m
+[00:00:25.287,750] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:25.289,337] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -57 Dist: 5868␛[0m
+[00:00:25.421,325] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:25.422,912] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2812␛[0m
+[00:00:25.554,840] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:25.556,427] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -82 Dist: 2542␛[0m
+[00:00:25.688,446] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:25.690,032] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -80 Dist: 2695␛[0m
+[00:00:25.822,021] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:25.823,608] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -79 Dist: 3073␛[0m
+[00:00:25.955,596] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:25.957,183] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -80 Dist: 2668␛[0m
+[00:00:26.089,172] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:26.090,759] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -80 Dist: 2668␛[0m
+[00:00:26.222,686] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:26.224,304] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -80 Dist: 3010␛[0m
+[00:00:26.356,292] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:26.357,879] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -80 Dist: 3100␛[0m
+[00:00:26.489,868] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:26.491,455] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -80 Dist: 2803␛[0m
+[00:00:26.623,443] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:26.625,030] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -79 Dist: 2469␛[0m
+[00:00:26.757,019] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:26.758,605] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -79 Dist: 3082␛[0m
+[00:00:26.890,533] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:26.892,120] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -79 Dist: 3037␛[0m
+[00:00:27.024,139] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:27.025,726] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -79 Dist: 3037␛[0m
+[00:00:27.157,714] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:27.159,301] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -79 Dist: 2821␛[0m
+[00:00:27.291,290] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:27.292,877] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -79 Dist: 3100␛[0m
+[00:00:27.424,865] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:27.426,452] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -79 Dist: 3028␛[0m
+[00:00:27.558,380] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:27.559,997] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -80 Dist: 2533␛[0m
+[00:00:27.691,986] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:27.693,572] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -80 Dist: 2740␛[0m
+[00:00:27.825,561] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:27.827,148] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -81 Dist: 3019␛[0m
+[00:00:27.959,136] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:27.960,723] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -82 Dist: 3001␛[0m
+[00:00:28.092,712] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:28.094,299] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2713␛[0m
+[00:00:28.226,226] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:28.227,844] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -86 Dist: 2731␛[0m
+[00:00:28.359,832] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:28.361,419] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -87 Dist: 2956␛[0m
+[00:00:28.493,408] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:28.494,995] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -85 Dist: 2560␛[0m
+[00:00:28.626,983] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:28.628,570] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2920␛[0m
+[00:00:28.760,559] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:28.762,145] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -82 Dist: 2794␛[0m
+[00:00:28.894,073] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:28.895,690] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -81 Dist: 3055␛[0m
+[00:00:29.027,679] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:29.029,266] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -81 Dist: 3055␛[0m
+[00:00:29.161,254] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:29.162,841] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -81 Dist: 2731␛[0m
+[00:00:29.294,830] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:29.296,417] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -81 Dist: 2650␛[0m
+[00:00:29.428,405] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:29.429,992] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -80 Dist: 2605␛[0m
+[00:00:29.561,920] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:29.563,537] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -80 Dist: 2352␛[0m
+[00:00:29.695,526] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:29.697,113] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -80 Dist: 2992␛[0m
+[00:00:29.829,101] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:29.830,688] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -80 Dist: 3064␛[0m
+[00:00:29.962,677] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:29.964,263] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -80 Dist: 3128␛[0m
+[00:00:30.096,252] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:30.097,839] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -81 Dist: 2478␛[0m
+[00:00:30.229,766] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:30.231,384] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -81 Dist: 2983␛[0m
+[00:00:30.363,372] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:30.364,959] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -80 Dist: 2569␛[0m
+[00:00:30.496,948] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:30.498,535] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -80 Dist: 2668␛[0m
+[00:00:30.630,523] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:30.632,110] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -79 Dist: 2857␛[0m
+[00:00:30.764,099] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:30.765,686] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -79 Dist: 2785␛[0m
+[00:00:30.897,613] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:30.899,230] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -80 Dist: 2785␛[0m
+[00:00:31.031,219] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:31.032,806] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -82 Dist: 2587␛[0m
+[00:00:31.164,794] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:31.166,381] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -82 Dist: 2803␛[0m
+[00:00:31.298,370] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:31.299,957] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -80 Dist: 2848␛[0m
+[00:00:31.431,945] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:31.433,532] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -80 Dist: 2758␛[0m
+[00:00:31.565,460] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:31.567,077] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -80 Dist: 2542␛[0m
+[00:00:31.699,066] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:31.700,653] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -79 Dist: 2560␛[0m
+[00:00:31.832,641] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:31.834,228] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -79 Dist: 2776␛[0m
+[00:00:31.966,217] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:31.967,803] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -79 Dist: 2785␛[0m
+[00:00:32.099,792] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:32.101,379] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -79 Dist: 3200␛[0m
+[00:00:32.233,306] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:32.234,924] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -80 Dist: 2749␛[0m
+[00:00:32.366,912] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:32.368,499] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -81 Dist: 2920␛[0m
+[00:00:32.500,488] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:32.502,075] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -80 Dist: 3037␛[0m
+[00:00:32.634,063] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:32.635,650] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -80 Dist: 3118␛[0m
+[00:00:32.767,639] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:32.769,226] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -81 Dist: 2902␛[0m
+[00:00:32.901,153] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:32.902,770] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -81 Dist: 2731␛[0m
+[00:00:33.034,759] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:33.036,346] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 2722␛[0m
+[00:00:33.168,334] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:33.169,921] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -82 Dist: 2587␛[0m
+[00:00:33.301,910] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:33.303,497] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -81 Dist: 2749␛[0m
+[00:00:33.435,485] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:33.437,072] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -82 Dist: 2722␛[0m
+[00:00:33.569,000] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:33.570,617] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -82 Dist: 2929␛[0m
+[00:00:33.702,606] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:33.704,193] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -81 Dist: 3019␛[0m
+[00:00:33.836,181] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:33.837,768] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -82 Dist: 2650␛[0m
+[00:00:33.969,757] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:33.971,343] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -85 Dist: 2668␛[0m
+[00:00:34.103,332] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:34.104,919] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -81 Dist: 2596␛[0m
+[00:00:34.236,846] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:34.238,464] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -86 Dist: 2911␛[0m
+[00:00:34.370,452] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:34.372,039] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -81 Dist: 3173␛[0m
+[00:00:34.504,028] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:34.505,615] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -81 Dist: 3064␛[0m
+[00:00:34.637,603] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:34.639,190] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -80 Dist: 3064␛[0m
+[00:00:34.771,179] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:34.772,766] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -81 Dist: 2902␛[0m
+[00:00:34.904,693] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:34.906,280] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -82 Dist: 2587␛[0m
+[00:00:35.038,299] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:35.039,886] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -82 Dist: 2992␛[0m
+[00:00:35.171,875] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:35.173,461] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -81 Dist: 2695␛[0m
+[00:00:35.305,450] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:35.307,037] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -79 Dist: 2758␛[0m
+[00:00:35.439,025] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:35.440,612] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -78 Dist: 2902␛[0m
+[00:00:35.572,540] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:35.574,127] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -81 Dist: 3254␛[0m
+[00:00:35.706,146] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:35.707,733] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2316␛[0m
+[00:00:35.839,721] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:35.841,308] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -80 Dist: 2749␛[0m
+[00:00:35.973,297] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:35.974,884] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -79 Dist: 2560␛[0m
+[00:00:36.106,872] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:36.108,459] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -81 Dist: 2704␛[0m
+[00:00:36.240,386] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:36.242,004] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -81 Dist: 2776␛[0m
+[00:00:36.373,992] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:36.375,579] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -80 Dist: 2406␛[0m
+[00:00:36.507,568] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:36.509,155] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -81 Dist: 2623␛[0m
+[00:00:36.641,143] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:36.642,730] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -79 Dist: 2956␛[0m
+[00:00:36.774,719] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:36.776,306] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -82 Dist: 2370␛[0m
+[00:00:36.908,233] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:36.909,820] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -82 Dist: 2974␛[0m
+[00:00:37.041,839] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:37.043,426] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -81 Dist: 3046␛[0m
+[00:00:37.175,415] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:37.177,001] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -82 Dist: 2956␛[0m
+[00:00:37.308,990] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:37.310,577] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2830␛[0m
+[00:00:37.442,565] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:37.444,152] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -85 Dist: 2776␛[0m
+[00:00:37.576,080] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:37.577,667] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -86 Dist: 2587␛[0m
+[00:00:37.709,686] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:37.711,273] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2713␛[0m
+[00:00:37.843,261] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:37.844,848] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -81 Dist: 2496␛[0m
+[00:00:37.976,837] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:37.978,424] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -81 Dist: 2704␛[0m
+[00:00:38.110,412] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:38.111,999] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -80 Dist: 2659␛[0m
+[00:00:38.243,927] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:38.245,513] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -82 Dist: 2650␛[0m
+[00:00:38.377,532] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:38.379,119] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 2487␛[0m
+[00:00:38.511,108] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:38.512,695] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -80 Dist: 2740␛[0m
+[00:00:38.644,683] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:38.646,270] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -82 Dist: 2776␛[0m
+[00:00:38.778,259] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:38.779,846] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -77 Dist: 2965␛[0m
+[00:00:38.911,773] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:38.913,391] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -78 Dist: 3019␛[0m
+[00:00:39.045,379] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:39.046,966] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -86 Dist: 2542␛[0m
+[00:00:39.178,955] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:39.180,541] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -86 Dist: 2713␛[0m
+[00:00:39.312,530] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:39.314,117] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -80 Dist: 2785␛[0m
+[00:00:39.446,105] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:39.447,692] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -79 Dist: 2785␛[0m
+[00:00:39.579,620] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:39.581,207] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -82 Dist: 2352␛[0m
+[00:00:39.713,226] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:39.714,813] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -81 Dist: 2415␛[0m
+[00:00:39.846,801] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:39.848,388] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2424␛[0m
+[00:00:39.980,377] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:39.981,964] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -82 Dist: 2596␛[0m
+[00:00:40.113,952] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:40.115,539] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -82 Dist: 2650␛[0m
+[00:00:40.247,467] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:40.249,053] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -82 Dist: 2641␛[0m
+[00:00:40.381,072] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:40.382,659] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -81 Dist: 2992␛[0m
+[00:00:40.514,648] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:40.516,235] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2902␛[0m
+[00:00:40.648,223] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:40.649,810] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -80 Dist: 2758␛[0m
+[00:00:40.781,799] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:40.783,386] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -82 Dist: 2776␛[0m
+[00:00:40.915,313] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:40.916,931] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -79 Dist: 2487␛[0m
+[00:00:41.048,919] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:41.050,506] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -79 Dist: 2605␛[0m
+[00:00:41.182,495] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:41.184,082] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -82 Dist: 3191␛[0m
+[00:00:41.316,070] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:41.317,657] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -80 Dist: 2776␛[0m
+[00:00:41.449,645] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:41.451,232] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -80 Dist: 2794␛[0m
+[00:00:41.583,160] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:41.584,777] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -80 Dist: 2695␛[0m
+[00:00:41.716,766] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:41.718,353] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -82 Dist: 3326␛[0m
+[00:00:41.850,341] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:41.851,928] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -82 Dist: 3209␛[0m
+[00:00:41.983,917] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:41.985,504] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2379␛[0m
+[00:00:42.117,492] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:42.119,079] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 3001␛[0m
+[00:00:42.251,007] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:42.252,593] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -82 Dist: 3010␛[0m
+[00:00:42.384,613] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:42.386,199] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -80 Dist: 3064␛[0m
+[00:00:42.518,188] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:42.519,775] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -80 Dist: 2578␛[0m
+[00:00:42.651,763] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:42.653,350] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -79 Dist: 2587␛[0m
+[00:00:42.785,339] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:42.786,926] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -80 Dist: 2767␛[0m
+[00:00:42.918,853] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:42.920,440] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -81 Dist: 3082␛[0m
+[00:00:43.052,459] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:43.054,046] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -80 Dist: 2740␛[0m
+[00:00:43.186,035] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:43.187,622] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2821␛[0m
+[00:00:43.319,610] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:43.321,197] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -82 Dist: 3064␛[0m
+[00:00:43.453,186] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:43.454,772] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -82 Dist: 3263␛[0m
+[00:00:43.586,700] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:43.588,287] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -80 Dist: 2641␛[0m
+[00:00:43.720,306] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:43.721,893] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2524␛[0m
+[00:00:43.853,881] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:43.855,468] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -82 Dist: 2496␛[0m
+[00:00:43.987,457] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:43.989,044] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2857␛[0m
+[00:00:44.121,032] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:44.122,619] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2758␛[0m
+[00:00:44.254,547] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:44.256,164] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2821␛[0m
+[00:00:44.388,153] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:44.389,739] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2938␛[0m
+[00:00:44.521,728] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:44.523,315] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2911␛[0m
+[00:00:44.655,303] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:44.656,890] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2650␛[0m
+[00:00:44.788,879] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:44.790,466] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2884␛[0m
+[00:00:44.922,393] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:44.923,980] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -82 Dist: 2506␛[0m
+[00:00:45.055,999] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:45.057,586] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -81 Dist: 3100␛[0m
+[00:00:45.189,575] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:45.191,162] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -82 Dist: 2830␛[0m
+[00:00:45.323,150] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:45.324,737] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2740␛[0m
+[00:00:45.456,726] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:45.458,312] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 3137␛[0m
+[00:00:45.590,240] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:45.591,857] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 3100␛[0m
+[00:00:45.723,846] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:45.725,433] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -82 Dist: 2812␛[0m
+[00:00:45.857,421] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:45.859,008] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -82 Dist: 2776␛[0m
+[00:00:45.990,997] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:45.992,584] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -82 Dist: 2839␛[0m
+[00:00:46.124,572] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:46.126,159] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -81 Dist: 2623␛[0m
+[00:00:46.258,087] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:46.259,704] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -81 Dist: 2415␛[0m
+[00:00:46.391,693] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:46.393,280] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -82 Dist: 2803␛[0m
+[00:00:46.525,268] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:46.526,855] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2938␛[0m
+[00:00:46.658,843] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:46.660,430] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -80 Dist: 3028␛[0m
+[00:00:46.792,419] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:46.794,006] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -82 Dist: 2208␛[0m
+[00:00:46.925,933] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:46.927,520] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -86 Dist: 2316␛[0m
+[00:00:47.059,539] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:47.061,126] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -89 Dist: 2551␛[0m
+[00:00:47.193,115] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:47.194,702] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -90 Dist: 2451␛[0m
+[00:00:47.326,690] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:47.328,277] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -87 Dist: 2181␛[0m
+[00:00:47.460,266] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:47.461,853] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -85 Dist: 2478␛[0m
+[00:00:47.593,780] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:47.595,397] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 2857␛[0m
+[00:00:47.727,386] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:47.728,973] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 2794␛[0m
+[00:00:47.860,961] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:47.862,548] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 2343␛[0m
+[00:00:47.994,537] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:47.996,124] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2361␛[0m
+[00:00:48.128,112] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:48.129,699] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2091␛[0m
+[00:00:48.261,627] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:48.263,214] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2533␛[0m
+[00:00:48.395,233] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:48.396,820] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2866␛[0m
+[00:00:48.528,808] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:48.530,395] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2533␛[0m
+[00:00:48.662,384] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:48.663,970] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2496␛[0m
+[00:00:48.795,959] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:48.797,546] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2668␛[0m
+[00:00:48.929,473] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:48.931,091] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2379␛[0m
+[00:00:49.063,079] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:49.064,666] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2776␛[0m
+[00:00:49.196,655] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:49.198,242] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2460␛[0m
+[00:00:49.330,230] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:49.331,817] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2478␛[0m
+[00:00:49.463,806] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:49.465,393] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2515␛[0m
+[00:00:49.597,320] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:49.598,907] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2740␛[0m
+[00:00:49.730,926] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:49.732,513] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2487␛[0m
+[00:00:49.864,501] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:49.866,088] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2451␛[0m
+[00:00:49.998,077] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:49.999,664] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2821␛[0m
+[00:00:50.131,652] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:50.133,239] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2298␛[0m
+[00:00:50.265,167] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:50.266,754] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2145␛[0m
+[00:00:50.398,773] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:50.400,360] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2524␛[0m
+[00:00:50.532,348] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:50.533,935] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2127␛[0m
+[00:00:50.665,924] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:50.667,510] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2136␛[0m
+[00:00:50.799,499] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:50.801,086] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2316␛[0m
+[00:00:50.933,013] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:50.934,600] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -82 Dist: 2533␛[0m
+[00:00:51.066,619] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:51.068,206] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2560␛[0m
+[00:00:51.200,195] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:51.201,782] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2515␛[0m
+[00:00:51.333,770] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:51.335,357] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -82 Dist: 2460␛[0m
+[00:00:51.467,346] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:51.468,933] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2506␛[0m
+[00:00:51.600,860] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:51.602,447] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -82 Dist: 2379␛[0m
+[00:00:51.734,466] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:51.736,053] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -82 Dist: 2533␛[0m
+[00:00:51.868,041] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:51.869,628] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -82 Dist: 2578␛[0m
+[00:00:52.001,617] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:52.003,204] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2496␛[0m
+[00:00:52.135,192] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:52.136,779] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2578␛[0m
+[00:00:52.268,707] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:52.270,294] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2100␛[0m
+[00:00:52.402,313] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:52.403,900] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2415␛[0m
+[00:00:52.535,888] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:52.537,475] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2767␛[0m
+[00:00:52.669,464] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:52.671,051] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2659␛[0m
+[00:00:52.803,039] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:52.804,626] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2551␛[0m
+[00:00:52.936,553] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:52.938,140] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2208␛[0m
+[00:00:53.070,159] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:53.071,746] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2316␛[0m
+[00:00:53.203,735] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:53.205,322] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -82 Dist: 2352␛[0m
+[00:00:53.337,310] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:53.338,897] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2496␛[0m
+[00:00:53.470,886] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:53.472,473] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -82 Dist: 2614␛[0m
+[00:00:53.604,400] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:53.605,987] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -82 Dist: 2605␛[0m
+[00:00:53.738,006] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:53.739,593] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -81 Dist: 2478␛[0m
+[00:00:53.871,582] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:53.873,168] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -82 Dist: 2794␛[0m
+[00:00:54.005,157] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:54.006,744] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -82 Dist: 2451␛[0m
+[00:00:54.138,732] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:54.140,319] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -81 Dist: 2587␛[0m
+[00:00:54.272,247] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:54.273,834] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -80 Dist: 2623␛[0m
+[00:00:54.405,853] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:54.407,440] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -80 Dist: 2677␛[0m
+[00:00:54.539,428] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:54.541,015] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -81 Dist: 3064␛[0m
+[00:00:54.673,004] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:54.674,591] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -82 Dist: 2704␛[0m
+[00:00:54.806,579] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:54.808,166] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -81 Dist: 3128␛[0m
+[00:00:54.940,093] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:54.941,680] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -81 Dist: 2902␛[0m
+[00:00:55.073,699] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:55.075,286] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -82 Dist: 2893␛[0m
+[00:00:55.207,275] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:55.208,862] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2460␛[0m
+[00:00:55.340,850] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:55.342,437] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -85 Dist: 2911␛[0m
+[00:00:55.474,426] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:55.476,013] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2217␛[0m
+[00:00:55.607,940] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:55.609,527] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -82 Dist: 2506␛[0m
+[00:00:55.741,546] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:55.743,133] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -80 Dist: 3082␛[0m
+[00:00:55.875,122] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:55.876,708] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -82 Dist: 2776␛[0m
+[00:00:56.008,697] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:56.010,284] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2415␛[0m
+[00:00:56.142,272] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:56.143,859] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -82 Dist: 2415␛[0m
+[00:00:56.275,787] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:56.277,374] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -82 Dist: 2614␛[0m
+[00:00:56.409,393] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:56.410,980] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -82 Dist: 2677␛[0m
+[00:00:56.542,968] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:56.544,555] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -82 Dist: 2785␛[0m
+[00:00:56.676,544] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:56.678,131] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2767␛[0m
+[00:00:56.810,119] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:56.811,706] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2524␛[0m
+[00:00:56.943,634] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:56.945,220] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -82 Dist: 2731␛[0m
+[00:00:57.077,239] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:57.078,826] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2821␛[0m
+[00:00:57.210,815] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:57.212,402] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2415␛[0m
+[00:00:57.344,390] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:57.345,977] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -82 Dist: 2785␛[0m
+[00:00:57.477,966] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:57.479,553] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2614␛[0m
+[00:00:57.611,480] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:57.613,098] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2857␛[0m
+[00:00:57.745,086] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:57.746,673] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2695␛[0m
+[00:00:57.878,662] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:57.880,249] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2794␛[0m
+[00:00:58.012,237] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:58.013,824] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 3109␛[0m
+[00:00:58.145,812] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:58.147,399] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 3218␛[0m
+[00:00:58.279,327] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:58.280,944] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2974␛[0m
+[00:00:58.412,933] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:58.414,520] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 2506␛[0m
+[00:00:58.546,508] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:58.548,095] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 3028␛[0m
+[00:00:58.680,084] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:58.681,671] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 3064␛[0m
+[00:00:58.813,659] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:58.815,246] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 3073␛[0m
+[00:00:58.947,174] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:58.948,760] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 2857␛[0m
+[00:00:59.080,780] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:59.082,366] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 2812␛[0m
+[00:00:59.214,355] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:59.215,942] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 3118␛[0m
+[00:00:59.347,930] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:59.349,517] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2397␛[0m
+[00:00:59.481,506] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:59.483,093] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 2722␛[0m
+[00:00:59.615,020] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:59.616,607] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2704␛[0m
+[00:00:59.748,626] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:59.750,213] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2830␛[0m
+[00:00:59.882,202] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:00:59.883,789] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2767␛[0m
+[00:01:00.015,777] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:00.017,364] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -82 Dist: 2758␛[0m
+[00:01:00.149,353] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:00.150,939] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -82 Dist: 2451␛[0m
+[00:01:00.282,867] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:00.284,454] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -82 Dist: 2740␛[0m
+[00:01:00.416,473] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:00.418,060] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2596␛[0m
+[00:01:00.550,048] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:00.551,635] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -82 Dist: 2704␛[0m
+[00:01:00.683,624] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:00.685,211] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2875␛[0m
+[00:01:00.817,199] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:00.818,786] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2605␛[0m
+[00:01:00.950,714] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:00.952,331] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -82 Dist: 3055␛[0m
+[00:01:01.084,320] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:01.085,906] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2830␛[0m
+[00:01:01.217,895] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:01.219,482] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2506␛[0m
+[00:01:01.351,470] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:01.353,057] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -86 Dist: 2848␛[0m
+[00:01:01.485,046] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:01.486,633] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -82 Dist: 2722␛[0m
+[00:01:01.618,560] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:01.620,178] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -82 Dist: 2713␛[0m
+[00:01:01.752,166] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:01.753,753] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2433␛[0m
+[00:01:01.885,742] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:01.887,329] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -82 Dist: 2875␛[0m
+[00:01:02.019,317] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:02.020,904] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2956␛[0m
+[00:01:02.152,893] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:02.154,479] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2767␛[0m
+[00:01:02.286,407] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:02.287,994] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2767␛[0m
+[00:01:02.420,013] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:02.421,600] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2884␛[0m
+[00:01:02.553,588] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:02.555,175] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2740␛[0m
+[00:01:02.687,164] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:02.688,751] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2587␛[0m
+[00:01:02.820,739] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:02.822,326] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -82 Dist: 2785␛[0m
+[00:01:02.954,254] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:02.955,841] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2460␛[0m
+[00:01:03.087,860] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:03.089,447] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2460␛[0m
+[00:01:03.221,435] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:03.223,022] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 3100␛[0m
+[00:01:03.355,010] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:03.356,597] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2812␛[0m
+[00:01:03.488,586] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:03.490,173] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2794␛[0m
+[00:01:03.622,100] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:03.623,687] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2992␛[0m
+[00:01:03.755,706] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:03.757,293] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -80 Dist: 3064␛[0m
+[00:01:03.889,282] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:03.890,869] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2794␛[0m
+[00:01:04.022,857] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:04.024,444] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2875␛[0m
+[00:01:04.156,433] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:04.158,020] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 3146␛[0m
+[00:01:04.289,947] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:04.291,534] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2848␛[0m
+[00:01:04.423,553] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:04.425,140] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 2722␛[0m
+[00:01:04.557,128] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:04.558,715] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 2794␛[0m
+[00:01:04.690,704] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:04.692,291] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 2821␛[0m
+[00:01:04.824,279] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:04.825,866] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 3128␛[0m
+[00:01:04.957,794] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:04.959,411] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2902␛[0m
+[00:01:05.091,400] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:05.092,987] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 3164␛[0m
+[00:01:05.224,975] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:05.226,562] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 3055␛[0m
+[00:01:05.358,551] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:05.360,137] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 2596␛[0m
+[00:01:05.492,126] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:05.493,713] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 3019␛[0m
+[00:01:05.625,640] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:05.627,227] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 2758␛[0m
+[00:01:05.759,246] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:05.760,833] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 2731␛[0m
+[00:01:05.892,822] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:05.894,409] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 3146␛[0m
+[00:01:06.026,397] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:06.027,984] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 3299␛[0m
+[00:01:06.159,973] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:06.161,560] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2812␛[0m
+[00:01:06.293,487] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:06.295,104] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2794␛[0m
+[00:01:06.427,093] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:06.428,680] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 2875␛[0m
+[00:01:06.560,668] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:06.562,255] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 3218␛[0m
+[00:01:06.694,244] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:06.695,831] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 2704␛[0m
+[00:01:06.827,819] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:06.829,406] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 1775␛[0m
+[00:01:06.961,334] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:06.962,921] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 3109␛[0m
+[00:01:07.094,940] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:07.096,527] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 2460␛[0m
+[00:01:07.228,515] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:07.230,102] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 3010␛[0m
+[00:01:07.362,091] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:07.363,677] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 2884␛[0m
+[00:01:07.495,666] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:07.497,253] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2487␛[0m
+[00:01:07.629,180] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:07.630,767] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 3028␛[0m
+[00:01:07.762,786] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:07.764,373] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 2722␛[0m
+[00:01:07.896,362] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:07.897,949] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -86 Dist: 2478␛[0m
+[00:01:08.029,937] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:08.031,524] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -85 Dist: 2992␛[0m
+[00:01:08.163,513] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:08.165,100] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -85 Dist: 2947␛[0m
+[00:01:08.297,027] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:08.298,645] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 2686␛[0m
+[00:01:08.430,633] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:08.432,220] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 3146␛[0m
+[00:01:08.564,208] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:08.565,795] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 2803␛[0m
+[00:01:08.697,784] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:08.699,371] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 2884␛[0m
+[00:01:08.831,359] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:08.832,946] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 3073␛[0m
+[00:01:08.964,874] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:08.966,491] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 2902␛[0m
+[00:01:09.098,480] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:09.100,067] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 2767␛[0m
+[00:01:09.232,055] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:09.233,642] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 3182␛[0m
+[00:01:09.365,631] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:09.367,218] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 3082␛[0m
+[00:01:09.499,206] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:09.500,793] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 2911␛[0m
+[00:01:09.632,720] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:09.634,338] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2866␛[0m
+[00:01:09.766,326] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:09.767,913] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 3010␛[0m
+[00:01:09.899,902] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:09.901,489] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -85 Dist: 2605␛[0m
+[00:01:10.033,477] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:10.035,064] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 3091␛[0m
+[00:01:10.167,053] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:10.168,640] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -85 Dist: 3046␛[0m
+[00:01:10.300,567] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:10.302,185] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 3109␛[0m
+[00:01:10.434,173] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:10.435,760] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 2911␛[0m
+[00:01:10.567,749] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:10.569,335] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 3046␛[0m
+[00:01:10.701,324] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:10.702,911] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 2776␛[0m
+[00:01:10.834,899] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:10.836,486] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2857␛[0m
+[00:01:10.968,414] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:10.970,031] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 3209␛[0m
+[00:01:11.102,020] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:11.103,607] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 2875␛[0m
+[00:01:11.235,595] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:11.237,182] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 3055␛[0m
+[00:01:11.369,171] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:11.370,758] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2551␛[0m
+[00:01:11.502,746] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:11.504,333] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2794␛[0m
+[00:01:11.636,260] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:11.637,878] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2451␛[0m
+[00:01:11.769,866] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:11.771,453] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2911␛[0m
+[00:01:11.903,442] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:11.905,029] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2848␛[0m
+[00:01:12.037,017] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:12.038,604] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2370␛[0m
+[00:01:12.170,593] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:12.172,180] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2596␛[0m
+[00:01:12.304,107] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:12.305,725] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2731␛[0m
+[00:01:12.437,713] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:12.439,300] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 2821␛[0m
+[00:01:12.571,289] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:12.572,875] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 2848␛[0m
+[00:01:12.704,864] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:12.706,451] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 3064␛[0m
+[00:01:12.838,439] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:12.840,026] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 3082␛[0m
+[00:01:12.971,954] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:12.973,541] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2668␛[0m
+[00:01:13.105,560] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:13.107,147] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 3010␛[0m
+[00:01:13.239,135] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:13.240,722] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 3164␛[0m
+[00:01:13.372,711] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:13.374,298] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 3073␛[0m
+[00:01:13.506,286] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:13.507,873] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2722␛[0m
+[00:01:13.639,801] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:13.641,387] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2677␛[0m
+[00:01:13.773,406] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:13.774,993] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2704␛[0m
+[00:01:13.906,982] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:13.908,569] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2767␛[0m
+[00:01:14.040,557] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:14.042,144] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 3082␛[0m
+[00:01:14.174,133] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:14.175,720] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 2929␛[0m
+[00:01:14.307,647] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:14.309,265] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 2767␛[0m
+[00:01:14.441,253] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:14.442,840] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 2731␛[0m
+[00:01:14.574,829] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:14.576,416] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 2704␛[0m
+[00:01:14.708,404] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:14.709,991] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 2812␛[0m
+[00:01:14.841,979] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:14.843,566] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 2965␛[0m
+[00:01:14.975,494] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:14.977,111] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 2794␛[0m
+[00:01:15.109,100] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:15.110,687] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 2893␛[0m
+[00:01:15.242,675] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:15.244,262] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 2668␛[0m
+[00:01:15.376,251] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:15.377,838] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 2533␛[0m
+[00:01:15.509,826] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:15.511,413] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 2731␛[0m
+[00:01:15.643,341] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:15.644,958] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 3164␛[0m
+[00:01:15.776,947] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:15.778,533] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 3100␛[0m
+[00:01:15.910,522] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:15.912,109] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 3109␛[0m
+[00:01:16.044,097] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:16.045,684] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 2469␛[0m
+[00:01:16.177,673] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:16.179,260] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 2749␛[0m
+[00:01:16.311,187] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:16.312,805] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 3118␛[0m
+[00:01:16.444,793] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:16.446,380] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 3100␛[0m
+[00:01:16.578,369] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:16.579,956] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 2605␛[0m
+[00:01:16.711,944] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:16.713,531] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 2713␛[0m
+[00:01:16.845,520] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:16.847,106] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 3100␛[0m
+[00:01:16.979,034] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:16.980,651] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 2848␛[0m
+[00:01:17.112,640] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:17.114,227] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 2542␛[0m
+[00:01:17.246,215] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:17.247,802] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2884␛[0m
+[00:01:17.379,791] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:17.381,378] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 3109␛[0m
+[00:01:17.513,366] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:17.514,953] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 2884␛[0m
+[00:01:17.646,881] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:17.648,468] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 3109␛[0m
+[00:01:17.780,487] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:17.782,073] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 3046␛[0m
+[00:01:17.914,062] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:17.915,649] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 2731␛[0m
+[00:01:18.047,637] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:18.049,224] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 3109␛[0m
+[00:01:18.181,213] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:18.182,800] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 2749␛[0m
+[00:01:18.314,727] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:18.316,345] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 3146␛[0m
+[00:01:18.448,333] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:18.449,920] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 3082␛[0m
+[00:01:18.581,909] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:18.583,496] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 2938␛[0m
+[00:01:18.715,484] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:18.717,071] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 2938␛[0m
+[00:01:18.849,060] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:18.850,646] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2478␛[0m
+[00:01:18.982,574] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:18.984,191] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2776␛[0m
+[00:01:19.116,180] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:19.117,767] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -85 Dist: 2848␛[0m
+[00:01:19.249,755] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:19.251,342] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2469␛[0m
+[00:01:19.383,331] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:19.384,918] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 3100␛[0m
+[00:01:19.516,906] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:19.518,493] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 3028␛[0m
+[00:01:19.650,421] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:19.652,038] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2785␛[0m
+[00:01:19.784,027] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:19.785,614] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2884␛[0m
+[00:01:19.917,602] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:19.919,189] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2956␛[0m
+[00:01:20.051,177] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:20.052,764] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2794␛[0m
+[00:01:20.184,753] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:20.186,340] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2821␛[0m
+[00:01:20.318,267] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:20.319,885] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2812␛[0m
+[00:01:20.451,873] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:20.453,460] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2722␛[0m
+[00:01:20.585,449] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:20.587,036] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2397␛[0m
+[00:01:20.719,024] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:20.720,611] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2560␛[0m
+[00:01:20.852,600] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:20.854,187] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2722␛[0m
+[00:01:20.986,114] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:20.987,731] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2758␛[0m
+[00:01:21.119,720] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:21.121,307] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2515␛[0m
+[00:01:21.253,295] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:21.254,882] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 3001␛[0m
+[00:01:21.386,871] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:21.388,458] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2451␛[0m
+[00:01:21.520,446] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:21.522,033] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2533␛[0m
+[00:01:21.653,961] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:21.655,578] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -80 Dist: 3109␛[0m
+[00:01:21.787,567] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:21.789,154] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -82 Dist: 2659␛[0m
+[00:01:21.921,142] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:21.922,729] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2740␛[0m
+[00:01:22.054,718] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:22.056,304] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2848␛[0m
+[00:01:22.188,293] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:22.189,880] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -85 Dist: 2731␛[0m
+[00:01:22.321,807] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:22.323,425] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 3118␛[0m
+[00:01:22.455,413] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:22.457,000] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 2893␛[0m
+[00:01:22.588,989] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:22.590,576] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 3416␛[0m
+[00:01:22.722,564] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:22.724,151] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2767␛[0m
+[00:01:22.856,140] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:22.857,727] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2415␛[0m
+[00:01:22.989,654] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:22.991,271] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 3019␛[0m
+[00:01:23.123,260] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:23.124,847] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2776␛[0m
+[00:01:23.256,835] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:23.258,422] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2803␛[0m
+[00:01:23.390,411] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:23.391,998] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2794␛[0m
+[00:01:23.523,986] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:23.525,573] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2785␛[0m
+[00:01:23.657,501] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:23.659,118] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2560␛[0m
+[00:01:23.791,107] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:23.792,694] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2803␛[0m
+[00:01:23.924,682] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:23.926,269] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2578␛[0m
+[00:01:24.058,258] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:24.059,844] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2866␛[0m
+[00:01:24.191,833] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:24.193,420] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2830␛[0m
+[00:01:24.325,347] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:24.326,965] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2578␛[0m
+[00:01:24.458,953] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:24.460,540] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2803␛[0m
+[00:01:24.592,529] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:24.594,116] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 3109␛[0m
+[00:01:24.726,104] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:24.727,691] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 3064␛[0m
+[00:01:24.859,680] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:24.861,267] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2884␛[0m
+[00:01:24.993,194] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:24.994,812] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2803␛[0m
+[00:01:25.126,800] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:25.128,387] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 3146␛[0m
+[00:01:25.260,375] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:25.261,962] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 2803␛[0m
+[00:01:25.393,951] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:25.395,538] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2650␛[0m
+[00:01:25.527,526] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:25.529,113] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2830␛[0m
+[00:01:25.661,041] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:25.662,658] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 3118␛[0m
+[00:01:25.794,647] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:25.796,234] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 1460␛[0m
+[00:01:25.928,222] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:25.929,809] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2650␛[0m
+[00:01:26.061,798] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:26.063,385] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2875␛[0m
+[00:01:26.195,373] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:26.196,960] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2911␛[0m
+[00:01:26.328,887] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:26.330,505] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2857␛[0m
+[00:01:26.462,493] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:26.464,080] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2686␛[0m
+[00:01:26.596,069] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:26.597,656] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -82 Dist: 2533␛[0m
+[00:01:26.729,644] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:26.731,231] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -82 Dist: 2578␛[0m
+[00:01:26.863,220] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:26.864,807] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2866␛[0m
+[00:01:26.996,734] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:26.998,352] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2623␛[0m
+[00:01:27.130,340] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:27.131,927] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -82 Dist: 2614␛[0m
+[00:01:27.263,916] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:27.265,502] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -82 Dist: 2442␛[0m
+[00:01:27.397,491] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:27.399,078] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -82 Dist: 2839␛[0m
+[00:01:27.531,066] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:27.532,653] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -82 Dist: 2560␛[0m
+[00:01:27.664,581] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:27.666,198] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2884␛[0m
+[00:01:27.798,187] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:27.799,774] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2614␛[0m
+[00:01:27.931,762] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:27.933,349] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2848␛[0m
+[00:01:28.065,338] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:28.066,925] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2848␛[0m
+[00:01:28.198,913] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:28.200,500] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 3209␛[0m
+[00:01:28.332,427] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:28.334,045] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 2424␛[0m
+[00:01:28.466,033] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:28.467,620] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 3019␛[0m
+[00:01:28.599,609] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:28.601,196] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 2641␛[0m
+[00:01:28.733,184] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:28.734,771] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 2785␛[0m
+[00:01:28.866,760] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:28.868,347] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 3254␛[0m
+[00:01:29.000,274] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:29.001,892] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 3218␛[0m
+[00:01:29.133,880] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:29.135,467] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 3209␛[0m
+[00:01:29.267,456] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:29.269,042] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 2866␛[0m
+[00:01:29.401,031] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:29.402,618] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2542␛[0m
+[00:01:29.534,606] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:29.536,193] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 2839␛[0m
+[00:01:29.668,121] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:29.669,738] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 2884␛[0m
+[00:01:29.801,727] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:29.803,314] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 3073␛[0m
+[00:01:29.935,302] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:29.936,889] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 2992␛[0m
+[00:01:30.068,878] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:30.070,465] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 3407␛[0m
+[00:01:30.202,453] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:30.204,040] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 2839␛[0m
+[00:01:30.335,968] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:30.337,585] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 3236␛[0m
+[00:01:30.469,573] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:30.471,160] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 2542␛[0m
+[00:01:30.603,149] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:30.604,736] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 2803␛[0m
+[00:01:30.736,724] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:30.738,311] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 2902␛[0m
+[00:01:30.870,300] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:30.871,887] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 2821␛[0m
+[00:01:31.003,814] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:31.005,432] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 2938␛[0m
+[00:01:31.137,420] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:31.139,007] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 3146␛[0m
+[00:01:31.270,996] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:31.272,583] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 3146␛[0m
+[00:01:31.404,571] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:31.406,158] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 2857␛[0m
+[00:01:31.538,146] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:31.539,733] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 3146␛[0m
+[00:01:31.671,661] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:31.673,278] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 2794␛[0m
+[00:01:31.805,267] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:31.806,854] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 2839␛[0m
+[00:01:31.938,842] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:31.940,429] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 2848␛[0m
+[00:01:32.072,418] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:32.074,005] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 3109␛[0m
+[00:01:32.205,993] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:32.207,580] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 3272␛[0m
+[00:01:32.339,508] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:32.341,125] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -85 Dist: 2965␛[0m
+[00:01:32.473,114] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:32.474,700] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -85 Dist: 3118␛[0m
+[00:01:32.606,689] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:32.608,276] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -85 Dist: 3182␛[0m
+[00:01:32.740,264] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:32.741,851] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -85 Dist: 2830␛[0m
+[00:01:32.873,840] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:32.875,427] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -85 Dist: 3073␛[0m
+[00:01:33.007,354] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:33.008,972] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -85 Dist: 2839␛[0m
+[00:01:33.140,960] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:33.142,547] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -50 Dist: 3470␛[0m
+[00:01:33.274,536] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:33.276,123] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 2776␛[0m
+[00:01:33.408,111] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:33.409,698] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 3155␛[0m
+[00:01:33.541,687] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:33.543,273] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 3001␛[0m
+[00:01:33.675,201] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:33.676,818] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 3146␛[0m
+[00:01:33.808,807] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:33.810,394] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 2659␛[0m
+[00:01:33.942,382] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:33.943,969] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 3037␛[0m
+[00:01:34.075,958] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:34.077,545] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2884␛[0m
+[00:01:34.209,533] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:34.211,120] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -82 Dist: 2830␛[0m
+[00:01:34.343,048] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:34.344,665] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -82 Dist: 2406␛[0m
+[00:01:34.476,654] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:34.478,240] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2911␛[0m
+[00:01:34.610,229] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:34.611,816] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 3191␛[0m
+[00:01:34.743,804] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:34.745,391] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -85 Dist: 3371␛[0m
+[00:01:34.877,380] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:34.878,967] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -85 Dist: 3209␛[0m
+[00:01:35.010,894] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:35.012,512] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -88 Dist: 3028␛[0m
+[00:01:35.144,500] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:35.146,087] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -85 Dist: 3173␛[0m
+[00:01:35.278,076] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:35.279,663] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -85 Dist: 2650␛[0m
+[00:01:35.411,651] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:35.413,238] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -86 Dist: 3236␛[0m
+[00:01:35.545,227] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:35.546,813] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -85 Dist: 3073␛[0m
+[00:01:35.678,741] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:35.680,358] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -87 Dist: 2605␛[0m
+[00:01:35.812,347] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:35.813,934] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -86 Dist: 2866␛[0m
+[00:01:35.945,922] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:35.947,509] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 3515␛[0m
+[00:01:36.079,498] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:36.081,085] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -85 Dist: 3164␛[0m
+[00:01:36.213,073] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:36.214,660] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -81 Dist: 2956␛[0m
+[00:01:36.346,588] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:36.348,205] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -80 Dist: 2785␛[0m
+[00:01:36.480,194] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:36.481,781] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -89 Dist: 2253␛[0m
+[00:01:36.613,769] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:36.615,356] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -76 Dist: 3227␛[0m
+[00:01:36.747,344] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:36.748,931] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -80 Dist: 3137␛[0m
+[00:01:36.880,920] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:36.882,507] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -80 Dist: 2893␛[0m
+[00:01:37.014,434] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:37.016,052] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -77 Dist: 3046␛[0m
+[00:01:37.148,040] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:37.149,627] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -77 Dist: 2767␛[0m
+[00:01:37.281,616] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:37.283,203] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -77 Dist: 3028␛[0m
+[00:01:37.415,191] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:37.416,778] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -78 Dist: 2713␛[0m
+[00:01:37.548,767] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:37.550,354] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -77 Dist: 2911␛[0m
+[00:01:37.682,281] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:37.683,898] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -77 Dist: 2884␛[0m
+[00:01:37.815,887] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:37.817,474] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -77 Dist: 2632␛[0m
+[00:01:37.949,462] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:37.951,049] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -77 Dist: 2884␛[0m
+[00:01:38.083,038] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:38.084,625] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -77 Dist: 2695␛[0m
+[00:01:38.216,613] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:38.218,200] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -77 Dist: 2740␛[0m
+[00:01:38.350,128] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:38.351,745] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -77 Dist: 2596␛[0m
+[00:01:38.483,734] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:38.485,321] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -77 Dist: 2866␛[0m
+[00:01:38.617,309] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:38.618,896] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -76 Dist: 3010␛[0m
+[00:01:38.750,885] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:38.752,471] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -77 Dist: 2821␛[0m
+[00:01:38.884,460] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:38.886,047] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -77 Dist: 2605␛[0m
+[00:01:39.017,974] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:39.019,561] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -77 Dist: 2803␛[0m
+[00:01:39.151,580] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:39.153,167] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -78 Dist: 2830␛[0m
+[00:01:39.285,156] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:39.286,743] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -81 Dist: 3254␛[0m
+[00:01:39.418,731] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:39.420,318] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -75 Dist: 2515␛[0m
+[00:01:39.552,307] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:39.553,894] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -77 Dist: 2641␛[0m
+[00:01:39.685,821] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:39.687,408] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -80 Dist: 3263␛[0m
+[00:01:39.819,427] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:39.821,014] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -82 Dist: 3182␛[0m
+[00:01:39.953,002] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:39.954,589] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -81 Dist: 2731␛[0m
+[00:01:40.086,578] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:40.088,165] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -81 Dist: 2740␛[0m
+[00:01:40.220,153] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:40.221,740] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -82 Dist: 3046␛[0m
+[00:01:40.353,668] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:40.355,285] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2938␛[0m
+[00:01:40.487,274] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:40.488,861] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2533␛[0m
+[00:01:40.620,849] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:40.622,436] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -81 Dist: 3155␛[0m
+[00:01:40.754,425] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:40.756,011] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -81 Dist: 2812␛[0m
+[00:01:40.888,000] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:40.889,587] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -79 Dist: 2677␛[0m
+[00:01:41.021,514] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:41.023,132] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -79 Dist: 2406␛[0m
+[00:01:41.155,120] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:41.156,707] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -82 Dist: 2983␛[0m
+[00:01:41.288,696] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:41.290,283] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2614␛[0m
+[00:01:41.422,271] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:41.423,858] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -81 Dist: 2920␛[0m
+[00:01:41.555,847] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:41.557,434] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2632␛[0m
+[00:01:41.689,361] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:41.690,979] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -88 Dist: 3704␛[0m
+[00:01:41.822,967] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:41.824,554] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 2974␛[0m
+[00:01:41.956,542] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:41.958,129] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -86 Dist: 3551␛[0m
+[00:01:42.090,118] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:42.091,705] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2722␛[0m
+[00:01:42.223,693] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:42.225,280] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2695␛[0m
+[00:01:42.357,208] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:42.358,825] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2875␛[0m
+[00:01:42.490,814] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:42.492,401] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -85 Dist: 2992␛[0m
+[00:01:42.624,389] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:42.625,976] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -92 Dist: 4128␛[0m
+[00:01:42.757,965] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:42.759,552] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -80 Dist: 2713␛[0m
+[00:01:42.891,540] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:42.893,127] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -78 Dist: 2911␛[0m
+[00:01:43.025,054] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:43.026,672] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -80 Dist: 2442␛[0m
+[00:01:43.158,660] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:43.160,247] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -79 Dist: 3082␛[0m
+[00:01:43.292,236] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:43.293,823] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2560␛[0m
+[00:01:43.425,811] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:43.427,398] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -76 Dist: 2749␛[0m
+[00:01:43.559,387] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:43.560,974] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -78 Dist: 2758␛[0m
+[00:01:43.692,901] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:43.694,488] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -91 Dist: 2352␛[0m
+[00:01:43.826,507] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:43.828,094] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -87 Dist: 2406␛[0m
+[00:01:43.960,083] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:43.961,669] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -85 Dist: 2460␛[0m
+[00:01:44.093,658] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:44.095,245] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -79 Dist: 3272␛[0m
+[00:01:44.227,233] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:44.228,820] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -80 Dist: 2614␛[0m
+[00:01:44.360,748] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:44.362,365] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -79 Dist: 2749␛[0m
+[00:01:44.494,354] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:44.495,941] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -76 Dist: 2343␛[0m
+[00:01:44.627,929] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:44.629,516] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -80 Dist: 2469␛[0m
+[00:01:44.761,505] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:44.763,092] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -89 Dist: 4552␛[0m
+[00:01:44.895,080] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:44.896,667] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -82 Dist: 3128␛[0m
+[00:01:45.028,594] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:45.030,212] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -78 Dist: 2551␛[0m
+[00:01:45.162,200] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:45.163,787] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -107 Dist: 63␛[0m
+[00:01:45.295,776] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:45.297,363] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -90 Dist: 3614␛[0m
+[00:01:45.429,351] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:45.430,938] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -86 Dist: 3028␛[0m
+[00:01:45.562,927] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:45.564,514] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -87 Dist: 2776␛[0m
+[00:01:45.696,441] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:45.698,059] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -99 Dist: 3533␛[0m
+[00:01:45.830,047] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:45.831,634] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -96 Dist: 1757␛[0m
+[00:01:45.963,623] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:45.965,209] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -81 Dist: 2929␛[0m
+[00:01:46.097,198] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:46.098,785] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -80 Dist: 2965␛[0m
+[00:01:46.230,773] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:46.232,360] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -82 Dist: 3191␛[0m
+[00:01:46.364,288] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:46.365,905] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2686␛[0m
+[00:01:46.497,894] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:46.499,481] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -85 Dist: 2469␛[0m
+[00:01:46.631,469] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:46.633,056] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -86 Dist: 2848␛[0m
+[00:01:46.765,045] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:46.766,632] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -89 Dist: 2451␛[0m
+[00:01:46.898,620] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:46.900,207] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -86 Dist: 2578␛[0m
+[00:01:47.032,135] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:47.033,752] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -86 Dist: 2839␛[0m
+[00:01:47.165,740] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:47.167,327] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -86 Dist: 2478␛[0m
+[00:01:47.299,316] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:47.300,903] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2821␛[0m
+[00:01:47.432,891] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:47.434,478] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 3001␛[0m
+[00:01:47.566,467] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:47.568,054] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -81 Dist: 2713␛[0m
+[00:01:47.699,981] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:47.701,599] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -81 Dist: 2686␛[0m
+[00:01:47.833,587] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:47.835,174] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2713␛[0m
+[00:01:47.967,163] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:47.968,750] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 2352␛[0m
+[00:01:48.100,738] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:48.102,325] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -86 Dist: 2569␛[0m
+[00:01:48.234,313] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:48.235,900] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -87 Dist: 2361␛[0m
+[00:01:48.367,828] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:48.369,415] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 2866␛[0m
+[00:01:48.501,434] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:48.503,021] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -85 Dist: 2695␛[0m
+[00:01:48.635,009] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:48.636,596] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -85 Dist: 2262␛[0m
+[00:01:48.768,585] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:48.770,172] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -88 Dist: 2893␛[0m
+[00:01:48.902,160] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:48.903,747] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -89 Dist: 2560␛[0m
+[00:01:49.035,675] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:49.037,261] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -91 Dist: 2776␛[0m
+[00:01:49.169,281] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:49.170,867] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -92 Dist: 3272␛[0m
+[00:01:49.302,856] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:49.304,443] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -91 Dist: 3146␛[0m
+[00:01:49.436,431] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:49.438,018] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -91 Dist: 3308␛[0m
+[00:01:49.570,007] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:49.571,594] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -89 Dist: 3128␛[0m
+[00:01:49.703,521] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:49.705,108] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -91 Dist: 3137␛[0m
+[00:01:49.837,127] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:49.838,714] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -95 Dist: 4092␛[0m
+[00:01:49.970,703] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:49.972,290] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -95 Dist: 3894␛[0m
+[00:01:50.104,278] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:50.105,865] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -94 Dist: 3569␛[0m
+[00:01:50.237,854] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:50.239,440] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -92 Dist: 4083␛[0m
+[00:01:50.371,368] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:50.372,955] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -92 Dist: 3867␛[0m
+[00:01:50.504,974] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:50.506,561] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -97 Dist: 3389␛[0m
+[00:01:50.638,549] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:50.640,136] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -96 Dist: 4209␛[0m
+[00:01:50.772,125] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:50.773,712] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -96 Dist: 4326␛[0m
+[00:01:50.905,700] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:50.907,287] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -97 Dist: 4390␛[0m
+[00:01:51.039,215] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:51.040,802] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -94 Dist: 3813␛[0m
+[00:01:51.172,821] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:51.174,407] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -91 Dist: 3903␛[0m
+[00:01:51.306,396] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:51.307,983] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -91 Dist: 3569␛[0m
+[00:01:51.439,971] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:51.441,558] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -90 Dist: 3470␛[0m
+[00:01:51.573,547] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:51.575,134] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -88 Dist: 2920␛[0m
+[00:01:51.707,061] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:51.708,648] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -87 Dist: 3326␛[0m
+[00:01:51.840,667] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:51.842,254] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -86 Dist: 3200␛[0m
+[00:01:51.974,243] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:51.975,830] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -85 Dist: 3245␛[0m
+[00:01:52.107,818] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:52.109,405] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 3200␛[0m
+[00:01:52.241,394] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:52.242,980] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2487␛[0m
+[00:01:52.374,908] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:52.376,525] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2560␛[0m
+[00:01:52.508,514] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:52.510,101] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2839␛[0m
+[00:01:52.642,089] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:52.643,676] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 3182␛[0m
+[00:01:52.775,665] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:52.777,252] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -85 Dist: 2758␛[0m
+[00:01:52.909,240] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:52.910,827] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -85 Dist: 3010␛[0m
+[00:01:53.042,755] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:53.044,342] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -86 Dist: 2478␛[0m
+[00:01:53.176,361] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:53.177,947] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -85 Dist: 2632␛[0m
+[00:01:53.309,936] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:53.311,523] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -85 Dist: 2560␛[0m
+[00:01:53.443,511] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:53.445,098] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -86 Dist: 2776␛[0m
+[00:01:53.577,087] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:53.578,674] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -87 Dist: 2776␛[0m
+[00:01:53.710,601] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:53.712,219] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -88 Dist: 2911␛[0m
+[00:01:53.844,207] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:53.845,794] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -88 Dist: 2713␛[0m
+[00:01:53.977,783] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:53.979,370] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -89 Dist: 2659␛[0m
+[00:01:54.111,358] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:54.112,945] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -89 Dist: 2478␛[0m
+[00:01:54.244,934] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:54.246,520] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -89 Dist: 2569␛[0m
+[00:01:54.378,448] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:54.380,035] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -89 Dist: 3308␛[0m
+[00:01:54.512,054] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:54.513,641] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -90 Dist: 3227␛[0m
+[00:01:54.645,629] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:54.647,216] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -94 Dist: 3164␛[0m
+[00:01:54.779,205] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:54.780,792] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -92 Dist: 2920␛[0m
+[00:01:54.912,780] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:54.914,367] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -91 Dist: 3164␛[0m
+[00:01:55.046,295] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:55.047,882] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -90 Dist: 3137␛[0m
+[00:01:55.179,901] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:55.181,488] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -88 Dist: 2487␛[0m
+[00:01:55.313,476] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:55.315,063] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -87 Dist: 2893␛[0m
+[00:01:55.447,052] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:55.448,638] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -86 Dist: 3001␛[0m
+[00:01:55.580,627] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:55.582,214] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -85 Dist: 2803␛[0m
+[00:01:55.714,141] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:55.715,759] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 3055␛[0m
+[00:01:55.847,747] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:55.849,334] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 2893␛[0m
+[00:01:55.981,323] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:55.982,910] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 2992␛[0m
+[00:01:56.114,898] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:56.116,485] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 3209␛[0m
+[00:01:56.248,474] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:56.250,061] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 3236␛[0m
+[00:01:56.381,988] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:56.383,605] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2758␛[0m
+[00:01:56.515,594] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:56.517,181] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -82 Dist: 2506␛[0m
+[00:01:56.649,169] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:56.650,756] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -82 Dist: 2749␛[0m
+[00:01:56.782,745] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:56.784,332] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2776␛[0m
+[00:01:56.916,320] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:56.917,907] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -82 Dist: 2641␛[0m
+[00:01:57.049,835] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:57.051,452] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -82 Dist: 2641␛[0m
+[00:01:57.183,441] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:57.185,028] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2956␛[0m
+[00:01:57.317,016] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:57.318,603] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2767␛[0m
+[00:01:57.450,592] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:57.452,178] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 3100␛[0m
+[00:01:57.584,167] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:57.585,754] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 2668␛[0m
+[00:01:57.717,681] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:57.719,299] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2812␛[0m
+[00:01:57.851,287] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:57.852,874] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 3019␛[0m
+[00:01:57.984,863] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:57.986,450] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2587␛[0m
+[00:01:58.118,438] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:58.120,025] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2343␛[0m
+[00:01:58.252,014] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:58.253,601] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2641␛[0m
+[00:01:58.385,528] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:58.387,145] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -85 Dist: 2902␛[0m
+[00:01:58.519,134] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:58.520,721] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -87 Dist: 2650␛[0m
+[00:01:58.652,709] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:58.654,296] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -88 Dist: 2542␛[0m
+[00:01:58.786,285] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:58.787,872] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -87 Dist: 2713␛[0m
+[00:01:58.919,860] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:58.921,447] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -88 Dist: 2668␛[0m
+[00:01:59.053,375] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:59.054,992] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -89 Dist: 2722␛[0m
+[00:01:59.186,981] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:59.188,568] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -91 Dist: 2740␛[0m
+[00:01:59.320,556] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:59.322,143] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -92 Dist: 2334␛[0m
+[00:01:59.454,132] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:59.455,718] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -87 Dist: 2442␛[0m
+[00:01:59.587,707] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:59.589,294] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -87 Dist: 2830␛[0m
+[00:01:59.721,221] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:59.722,808] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2352␛[0m
+[00:01:59.854,827] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:59.856,414] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2533␛[0m
+[00:01:59.988,403] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:01:59.989,990] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2740␛[0m
+[00:02:00.121,978] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:00.123,565] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2695␛[0m
+[00:02:00.255,554] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:00.257,141] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -85 Dist: 2893␛[0m
+[00:02:00.389,068] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:00.390,686] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -86 Dist: 2424␛[0m
+[00:02:00.522,674] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:00.524,261] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -88 Dist: 3227␛[0m
+[00:02:00.656,250] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:00.657,836] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -88 Dist: 3118␛[0m
+[00:02:00.789,825] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:00.791,412] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -95 Dist: 4101␛[0m
+[00:02:00.923,400] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:00.924,987] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -85 Dist: 2551␛[0m
+[00:02:01.056,915] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:01.058,502] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 3200␛[0m
+[00:02:01.190,521] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:01.192,108] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -85 Dist: 3425␛[0m
+[00:02:01.324,096] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:01.325,683] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -88 Dist: 3281␛[0m
+[00:02:01.457,672] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:01.459,259] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -86 Dist: 2542␛[0m
+[00:02:01.591,247] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:01.592,834] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 3254␛[0m
+[00:02:01.724,761] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:01.726,348] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -88 Dist: 1640␛[0m
+[00:02:01.858,367] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:01.859,954] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 2307␛[0m
+[00:02:01.991,943] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:01.993,530] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -79 Dist: 3182␛[0m
+[00:02:02.125,518] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:02.127,105] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -85 Dist: 3037␛[0m
+[00:02:02.259,094] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:02.260,681] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -88 Dist: 2496␛[0m
+[00:02:02.392,608] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:02.394,195] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2352␛[0m
+[00:02:02.526,214] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:02.527,801] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2055␛[0m
+[00:02:02.659,790] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:02.661,376] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 2379␛[0m
+[00:02:02.793,365] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:02.794,952] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -81 Dist: 2686␛[0m
+[00:02:02.926,940] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:02.928,527] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2235␛[0m
+[00:02:03.060,455] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:03.062,072] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -91 Dist: 685␛[0m
+[00:02:03.194,061] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:03.195,648] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -87 Dist: 1496␛[0m
+[00:02:03.327,636] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:03.329,223] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -88 Dist: 1703␛[0m
+[00:02:03.461,212] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:03.462,799] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -89 Dist: 1487␛[0m
+[00:02:03.594,787] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:03.596,374] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -87 Dist: 1469␛[0m
+[00:02:03.728,302] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:03.729,919] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -87 Dist: 2001␛[0m
+[00:02:03.861,907] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:03.863,494] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -87 Dist: 1577␛[0m
+[00:02:03.995,483] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:03.997,070] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -88 Dist: 1370␛[0m
+[00:02:04.129,058] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:04.130,645] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -88 Dist: 1640␛[0m
+[00:02:04.262,634] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:04.264,221] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -88 Dist: 1613␛[0m
+[00:02:04.396,148] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:04.397,766] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -88 Dist: 1983␛[0m
+[00:02:04.529,754] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:04.531,341] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -89 Dist: 1956␛[0m
+[00:02:04.663,330] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:04.664,916] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -89 Dist: 1487␛[0m
+[00:02:04.796,905] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:04.798,492] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -89 Dist: 1225␛[0m
+[00:02:04.930,480] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:04.932,067] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -89 Dist: 1775␛[0m
+[00:02:05.063,995] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:05.065,582] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -90 Dist: 1974␛[0m
+[00:02:05.197,601] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:05.199,188] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -89 Dist: 1974␛[0m
+[00:02:05.331,176] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:05.332,763] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -88 Dist: 1902␛[0m
+[00:02:05.464,752] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:05.466,339] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -88 Dist: 2082␛[0m
+[00:02:05.598,327] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:05.599,914] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -88 Dist: 1586␛[0m
+[00:02:05.731,842] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:05.733,459] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -88 Dist: 1902␛[0m
+[00:02:05.865,447] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:05.867,034] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -88 Dist: 1595␛[0m
+[00:02:05.999,023] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:06.000,610] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -88 Dist: 1811␛[0m
+[00:02:06.132,598] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:06.134,185] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -88 Dist: 2298␛[0m
+[00:02:06.266,174] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:06.267,761] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -90 Dist: 1838␛[0m
+[00:02:06.399,688] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:06.401,275] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -89 Dist: 1505␛[0m
+[00:02:06.533,294] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:06.534,881] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -88 Dist: 1748␛[0m
+[00:02:06.666,870] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:06.668,457] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -88 Dist: 1694␛[0m
+[00:02:06.800,445] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:06.802,032] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -88 Dist: 2442␛[0m
+[00:02:06.934,020] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:06.935,607] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -87 Dist: 1974␛[0m
+[00:02:07.067,535] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:07.069,152] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -87 Dist: 2181␛[0m
+[00:02:07.201,141] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:07.202,728] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -88 Dist: 1992␛[0m
+[00:02:07.334,716] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:07.336,303] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -88 Dist: 2136␛[0m
+[00:02:07.468,292] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:07.469,879] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -88 Dist: 2515␛[0m
+[00:02:07.601,867] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:07.603,454] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -87 Dist: 2533␛[0m
+[00:02:07.735,382] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:07.736,968] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -88 Dist: 1911␛[0m
+[00:02:07.868,988] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:07.870,574] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -87 Dist: 2154␛[0m
+[00:02:08.002,563] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:08.004,150] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -87 Dist: 1929␛[0m
+[00:02:08.136,138] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:08.137,725] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -88 Dist: 2253␛[0m
+[00:02:08.269,714] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:08.271,301] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -88 Dist: 2668␛[0m
+[00:02:08.403,228] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:08.404,815] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -86 Dist: 1956␛[0m
+[00:02:08.536,834] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:08.538,421] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -88 Dist: 1902␛[0m
+[00:02:08.670,410] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:08.671,997] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -88 Dist: 1838␛[0m
+[00:02:08.803,985] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:08.805,572] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -88 Dist: 2181␛[0m
+[00:02:08.937,561] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:08.939,147] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -89 Dist: 2154␛[0m
+[00:02:09.071,075] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:09.072,662] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -89 Dist: 2298␛[0m
+[00:02:09.204,681] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:09.206,268] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -89 Dist: 2361␛[0m
+[00:02:09.338,256] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:09.339,843] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -89 Dist: 1721␛[0m
+[00:02:09.471,832] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:09.473,419] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -90 Dist: 2478␛[0m
+[00:02:09.605,407] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:09.606,994] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -89 Dist: 2253␛[0m
+[00:02:09.738,922] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:09.740,539] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -89 Dist: 2253␛[0m
+[00:02:09.872,528] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:09.874,114] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -88 Dist: 2145␛[0m
+[00:02:10.006,103] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:10.007,690] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -92 Dist: 2451␛[0m
+[00:02:10.139,678] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:10.141,265] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -89 Dist: 2641␛[0m
+[00:02:10.273,254] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:10.274,841] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -88 Dist: 2091␛[0m
+[00:02:10.406,768] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:10.408,386] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -89 Dist: 2469␛[0m
+[00:02:10.540,374] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:10.541,961] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -89 Dist: 2298␛[0m
+[00:02:10.673,950] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:10.675,537] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -89 Dist: 1929␛[0m
+[00:02:10.807,525] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:10.809,112] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -89 Dist: 2632␛[0m
+[00:02:10.941,101] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:10.942,687] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -89 Dist: 2569␛[0m
+[00:02:11.074,615] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:11.076,232] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -89 Dist: 2082␛[0m
+[00:02:11.208,221] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:11.209,808] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -90 Dist: 2713␛[0m
+[00:02:11.341,796] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:11.343,383] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -90 Dist: 2352␛[0m
+[00:02:11.475,372] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:11.476,959] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -89 Dist: 2217␛[0m
+[00:02:11.608,947] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:11.610,534] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -90 Dist: 2442␛[0m
+[00:02:11.742,462] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:11.744,049] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -89 Dist: 2560␛[0m
+[00:02:11.876,068] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:11.877,655] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -90 Dist: 2515␛[0m
+[00:02:12.009,643] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:12.011,230] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -90 Dist: 2560␛[0m
+[00:02:12.143,218] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:12.144,805] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -90 Dist: 1992␛[0m
+[00:02:12.276,794] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:12.278,381] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -91 Dist: 1739␛[0m
+[00:02:12.410,308] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:12.411,926] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -91 Dist: 2352␛[0m
+[00:02:12.543,914] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:12.545,501] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -89 Dist: 2704␛[0m
+[00:02:12.677,490] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:12.679,077] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -90 Dist: 2560␛[0m
+[00:02:12.811,065] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:12.812,652] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -89 Dist: 2226␛[0m
+[00:02:12.944,641] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:12.946,228] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -89 Dist: 1902␛[0m
+[00:02:13.078,155] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:13.079,772] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -90 Dist: 2145␛[0m
+[00:02:13.211,761] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:13.213,348] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -90 Dist: 2145␛[0m
+[00:02:13.345,336] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:13.346,923] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -89 Dist: 2172␛[0m
+[00:02:13.478,912] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:13.480,499] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -90 Dist: 2307␛[0m
+[00:02:13.612,487] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:13.614,074] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -89 Dist: 2226␛[0m
+[00:02:13.746,002] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:13.747,589] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -89 Dist: 2208␛[0m
+[00:02:13.879,608] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:13.881,195] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -89 Dist: 2388␛[0m
+[00:02:14.013,183] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:14.014,770] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -90 Dist: 2560␛[0m
+[00:02:14.146,759] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:14.148,345] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -89 Dist: 2749␛[0m
+[00:02:14.280,334] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:14.281,921] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -90 Dist: 2397␛[0m
+[00:02:14.413,848] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:14.415,466] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -89 Dist: 2379␛[0m
+[00:02:14.547,454] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:14.549,041] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -91 Dist: 2190␛[0m
+[00:02:14.681,030] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:14.682,617] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -91 Dist: 2560␛[0m
+[00:02:14.814,605] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:14.816,192] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -90 Dist: 2343␛[0m
+[00:02:14.948,181] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:14.949,768] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -90 Dist: 2388␛[0m
+[00:02:15.081,695] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:15.083,312] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -90 Dist: 2424␛[0m
+[00:02:15.215,301] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:15.216,888] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -89 Dist: 1929␛[0m
+[00:02:15.348,876] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:15.350,463] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -89 Dist: 2325␛[0m
+[00:02:15.482,452] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:15.484,039] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -90 Dist: 2632␛[0m
+[00:02:15.616,027] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:15.617,614] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -89 Dist: 2334␛[0m
+[00:02:15.749,542] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:15.751,159] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -89 Dist: 2289␛[0m
+[00:02:15.883,148] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:15.884,735] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -90 Dist: 1929␛[0m
+[00:02:16.016,723] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:16.018,280] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -100 Dist: 0␛[0m
+[00:02:16.150,299] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:16.151,885] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -85 Dist: 1739␛[0m
+[00:02:16.283,874] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:16.285,461] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -85 Dist: 1929␛[0m
+[00:02:16.417,388] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:16.418,975] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 2334␛[0m
+[00:02:16.550,994] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:16.552,581] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -92 Dist: 1397␛[0m
+[00:02:16.684,570] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:16.686,157] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -90 Dist: 1108␛[0m
+[00:02:16.818,145] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:16.819,732] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -88 Dist: 2596␛[0m
+[00:02:16.951,721] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:16.953,308] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -89 Dist: 3082␛[0m
+[00:02:17.085,235] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:17.086,822] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -81 Dist: 2983␛[0m
+[00:02:17.218,841] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:17.220,428] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -82 Dist: 2028␛[0m
+[00:02:17.352,416] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:17.354,003] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -86 Dist: 1514␛[0m
+[00:02:17.485,992] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:17.487,579] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -95 Dist: 81␛[0m
+[00:02:17.619,567] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:17.621,154] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -88 Dist: 3290␛[0m
+[00:02:17.753,082] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:17.754,699] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -86 Dist: 3046␛[0m
+[00:02:17.886,688] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:17.888,275] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -91 Dist: 2695␛[0m
+[00:02:18.020,263] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:18.021,850] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -86 Dist: 2983␛[0m
+[00:02:18.153,839] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:18.155,426] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -88 Dist: 2560␛[0m
+[00:02:18.287,414] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:18.288,970] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -107 Dist: 0␛[0m
+[00:02:18.420,928] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:18.422,515] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -99 Dist: 2046␛[0m
+[00:02:18.554,534] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:18.556,121] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -100 Dist: 4029␛[0m
+[00:02:18.688,110] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:18.689,697] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -96 Dist: 3533␛[0m
+[00:02:18.821,685] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:18.823,272] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -100 Dist: 3218␛[0m
+[00:02:18.955,261] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:18.956,848] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -92 Dist: 2893␛[0m
+[00:02:19.088,775] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:19.090,362] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -92 Dist: 3028␛[0m
+[00:02:19.222,381] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:19.223,968] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -92 Dist: 3064␛[0m
+[00:02:19.355,957] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:19.357,543] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -88 Dist: 3137␛[0m
+[00:02:19.489,532] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:19.491,119] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -87 Dist: 3010␛[0m
+[00:02:19.623,107] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:19.624,694] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -86 Dist: 2821␛[0m
+[00:02:19.756,622] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:19.758,209] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 2442␛[0m
+[00:02:19.890,228] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:19.891,815] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 2983␛[0m
+[00:02:20.023,803] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:20.025,390] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 3037␛[0m
+[00:02:20.157,379] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:20.158,966] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2983␛[0m
+[00:02:20.290,954] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:20.292,541] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2929␛[0m
+[00:02:20.424,468] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:20.426,055] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2686␛[0m
+[00:02:20.558,074] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:20.559,661] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 3109␛[0m
+[00:02:20.691,650] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:20.693,237] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -82 Dist: 3164␛[0m
+[00:02:20.825,225] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:20.826,812] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -82 Dist: 2650␛[0m
+[00:02:20.958,801] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:20.960,388] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2767␛[0m
+[00:02:21.092,315] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:21.093,933] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2614␛[0m
+[00:02:21.225,921] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:21.227,508] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2677␛[0m
+[00:02:21.359,497] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:21.361,083] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 3236␛[0m
+[00:02:21.493,072] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:21.494,659] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 2515␛[0m
+[00:02:21.626,647] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:21.628,234] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 3055␛[0m
+[00:02:21.760,162] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:21.761,779] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 3191␛[0m
+[00:02:21.893,768] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:21.895,355] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -86 Dist: 2713␛[0m
+[00:02:22.027,343] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:22.028,930] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -90 Dist: 2902␛[0m
+[00:02:22.160,919] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:22.162,506] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -90 Dist: 3209␛[0m
+[00:02:22.294,494] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:22.296,081] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -90 Dist: 2956␛[0m
+[00:02:22.428,009] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:22.429,626] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -87 Dist: 2226␛[0m
+[00:02:22.561,614] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:22.563,201] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -88 Dist: 2749␛[0m
+[00:02:22.695,190] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:22.696,777] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -88 Dist: 2524␛[0m
+[00:02:22.828,765] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:22.830,352] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -87 Dist: 2848␛[0m
+[00:02:22.962,341] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:22.963,928] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -86 Dist: 2830␛[0m
+[00:02:23.095,855] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:23.097,473] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -87 Dist: 3155␛[0m
+[00:02:23.229,461] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:23.231,048] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -87 Dist: 2731␛[0m
+[00:02:23.363,037] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:23.364,624] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -87 Dist: 2587␛[0m
+[00:02:23.496,612] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:23.498,199] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -85 Dist: 2875␛[0m
+[00:02:23.630,187] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:23.631,774] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -85 Dist: 3380␛[0m
+[00:02:23.763,702] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:23.765,319] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 2875␛[0m
+[00:02:23.897,308] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:23.898,895] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 2632␛[0m
+[00:02:24.030,883] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:24.032,470] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 3100␛[0m
+[00:02:24.164,459] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:24.166,046] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -83 Dist: 3082␛[0m
+[00:02:24.298,034] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:24.299,621] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 3073␛[0m
+[00:02:24.431,549] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:24.433,166] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -84 Dist: 3118␛[0m
+[00:02:24.565,155] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:24.566,741] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -86 Dist: 3218␛[0m
+[00:02:24.698,730] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:24.700,317] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -88 Dist: 3082␛[0m
+[00:02:24.832,305] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:24.833,892] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -90 Dist: 3578␛[0m
+[00:02:24.965,881] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:24.967,468] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -91 Dist: 2947␛[0m
+[00:02:25.099,395] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:25.100,982] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -93 Dist: 3659␛[0m
+[00:02:25.233,001] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:25.234,588] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -98 Dist: 5084␛[0m
+[00:02:25.366,577] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:25.368,164] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -99 Dist: 5561␛[0m
+[00:02:25.500,152] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:25.501,739] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -101 Dist: 5426␛[0m
+[00:02:25.633,728] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:25.635,314] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -101 Dist: 4254␛[0m
+[00:02:25.767,242] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:25.768,859] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -97 Dist: 3912␛[0m
+[00:02:25.900,848] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:25.902,435] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -94 Dist: 3398␛[0m
+[00:02:26.034,423] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:26.036,010] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -95 Dist: 4155␛[0m
+[00:02:26.167,999] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:26.169,586] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -97 Dist: 4876␛[0m
+[00:02:26.301,574] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:26.303,161] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -98 Dist: 4786␛[0m
+[00:02:26.435,089] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:26.436,706] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -95 Dist: 3569␛[0m
+[00:02:26.568,695] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:26.570,281] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -98 Dist: 4624␛[0m
+[00:02:26.702,270] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:26.703,857] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -96 Dist: 4263␛[0m
+[00:02:26.835,845] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:26.837,432] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -100 Dist: 3137␛[0m
+[00:02:26.969,421] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:26.971,008] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -95 Dist: 3939␛[0m
+[00:02:27.102,935] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:27.104,553] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -92 Dist: 3677␛[0m
+[00:02:27.236,541] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:27.238,128] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -94 Dist: 3407␛[0m
+[00:02:27.370,117] ␛[0m<inf> sx1280: Ranging Perforemed.␛[0m
+[00:02:27.371,704] ␛[0m<inf> sx1280_ranging: SF: 144 BW: 38 RSSI: -102 Dist: 2839␛[0m
+[00:02:27.506,195] ␛[1;31m<err> sx1280: Ranging Timeout.␛[0m
+[00:02:27.506,225] ␛[1;31m<err> sx1280_ranging: Ranging Failed.␛[0m
+[00:02:27.640,747] ␛[1;31m<err> sx1280: Ranging Timeout.␛[0m
+[00:02:27.640,777] ␛[1;31m<err> sx1280_ranging: Ranging Failed.␛[0m
+[00:02:27.775,238] ␛[1;31m<err> sx1280: Ranging Timeout.␛[0m
+[00:02:27.775,299] ␛[1;31m<err> sx1280_ranging: Ranging Failed.␛[0m
+[00:02:27.909,790] ␛[1;31m<err> sx1280: Ranging Timeout.␛[0m
+[00:02:27.909,820] ␛[1;31m<err> sx1280_ranging: Ranging Failed.␛[0m
+[00:02:28.044,311] ␛[1;31m<err> sx1280: Ranging Timeout.␛[0m
+[00:02:28.044,342] ␛[1;31m<err> sx1280_ranging: Ranging Failed.␛[0m
+[00:02:28.178,833] ␛[1;31m<err> sx1280: Ranging Timeout.␛[0m
+[00:02:28.178,863] ␛[1;31m<err> sx1280_ranging: Ranging Failed.␛[0m
+[00:02:28.313,354] ␛[1;31m<err> sx1280: Ranging Timeout.␛[0m
+[00:02:28.313,385] ␛[1;31m<err> sx1280_ranging: Ranging Failed.␛[0m
+[00:02:28.447,845] ␛[1;31m<err> sx1280: Ranging Timeout.␛[0m
+[00:02:28.447,906] ␛[1;31m<err> sx1280_ranging: Ranging Failed.␛[0m
+[00:02:28.582,397] ␛[1;31m<err> sx1280: Ranging Timeout.␛[0m
+[00:02:28.582,427] ␛[1;31m<err> sx1280_ranging: Ranging Failed.␛[0m
+[00:02:28.716,918] ␛[1;31m<err> sx1280: Ranging Timeout.␛[0m
+[00:02:28.716,949] ␛[1;31m<err> sx1280_ranging: Ranging Failed.␛[0m
+[00:02:28.851,440] ␛[1;31m<err> sx1280: Ranging Timeout.␛[0m
+[00:02:28.851,470] ␛[1;31m<err> sx1280_ranging: Ranging Failed.␛[0m
+[00:02:28.985,961] ␛[1;31m<err> sx1280: Ranging Timeout.␛[0m
+[00:02:28.985,992] ␛[1;31m<err> sx1280_ranging: Ranging Failed.␛[0m
+[00:02:29.120,452] ␛[1;31m<err> sx1280: Ranging Timeout.␛[0m
+[00:02:29.120,513] ␛[1;31m<err> sx1280_ranging: Ranging Failed.␛[0m
+[00:02:29.255,004] ␛[1;31m<err> sx1280: Ranging Timeout.␛[0m
+[00:02:29.255,035] ␛[1;31m<err> sx1280_ranging: Ranging Failed.␛[0m
+[00:02:29.389,526] ␛[1;31m<err> sx1280: Ranging Timeout.␛[0m
+[00:02:29.389,556] ␛[1;31m<err> sx1280_ranging: Ranging Failed.␛[0m
+[00:02:29.524,047] ␛[1;31m<err> sx1280: Ranging Timeout.␛[0m
+[00:02:29.524,078] ␛[1;31m<err> sx1280_ranging: Ranging Failed.␛[0m
+[00:02:29.658,569] ␛[1;31m<err> sx1280: Ranging Timeout.␛[0m
+[00:02:29.658,599] ␛[1;31m<err> sx1280_ranging: Ranging Failed.␛[0m
+[00:02:29.793,029] ␛[1;31m<err> sx1280: Ranging Timeout.␛[0m
+[00:02:29.793,090] ␛[1;31m<err> sx1280_ranging: Ranging Failed.␛[0m
+[00:02:29.927,581] ␛[1;31m<err> sx1280: Ranging Timeout.␛[0m
+[00:02:29.927,612] ␛[1;31m<err> sx1280_ranging: Ranging Failed.␛[0m
+[00:02:30.062,103] ␛[1;31m<err> sx1280: Ranging Timeout.␛[0m
+[00:02:30.062,133] ␛[1;31m<err> sx1280_ranging: Ranging Failed.␛[0m
+[00:02:30.196,624] ␛[1;31m<err> sx1280: Ranging Timeout.␛[0m
+[00:02:30.196,655] ␛[1;31m<err> sx1280_ranging: Ranging Failed.␛[0m
+[00:02:30.331,146] ␛[1;31m<err> sx1280: Ranging Timeout.␛[0m
+[00:02:30.331,176] ␛[1;31m<err> sx1280_ranging: Ranging Failed.␛[0m
+[00:02:30.465,606] ␛[1;31m<err> sx1280: Ranging Timeout.␛[0m
+[00:02:30.465,667] ␛[1;31m<err> sx1280_ranging: Ranging Failed.␛[0m
+[00:02:30.600,158] ␛[1;31m<err> sx1280: Ranging Timeout.␛[0m
+[00:02:30.600,189] ␛[1;31m<err> sx1280_ranging: Ranging Failed.␛[0m
+[00:02:30.734,680] ␛[1;31m<err> sx1280: Ranging Timeout.␛[0m
+[00:02:30.734,710] ␛[1;31m<err> sx1280_ranging: Ranging Failed.␛[0m
+[00:02:30.869,201] ␛[1;31m<err> sx1280: Ranging Timeout.␛[0m
+[00:02:30.869,232] ␛[1;31m<err> sx1280_ranging: Ranging Failed.␛[0m
+[00:02:31.003,723] ␛[1;31m<err> sx1280: Ranging Timeout.␛[0m
+[00:02:31.003,753] ␛[1;31m<err> sx1280_ranging: Ranging Failed.␛[0m
+[00:02:31.138,214] ␛[1;31m<err> sx1280: Ranging Timeout.␛[0m
+[00:02:31.138,275] ␛[1;31m<err> sx1280_ranging: Ranging Failed.␛[0m
+[00:02:31.272,766] ␛[1;31m<err> sx1280: Ranging Timeout.␛[0m
+[00:02:31.272,796] ␛[1;31m<err> sx1280_ranging: Ranging Failed.␛[0m
+[00:02:31.407,287] ␛[1;31m<err> sx1280: Ranging Timeout.␛[0m
+[00:02:31.407,318] ␛[1;31m<err> sx1280_ranging: Ranging Failed.␛[0m
+[00:02:31.541,809] ␛[1;31m<err> sx1280: Ranging Timeout.␛[0m
+[00:02:31.541,839] ␛[1;31m<err> sx1280_ranging: Ranging Failed.␛[0m
+[00:02:31.676,330] ␛[1;31m<err> sx1280: Ranging Timeout.␛[0m
+[00:02:31.676,361] ␛[1;31m<err> sx1280_ranging: Ranging Failed.␛[0m
+[00:02:31.810,791] ␛[1;31m<err> sx1280: Ranging Timeout.␛[0m
+[00:02:31.810,852] ␛[1;31m<err> sx1280_ranging: Ranging Failed.␛[0m
+[00:02:31.945,343] ␛[1;31m<err> sx1280: Ranging Timeout.␛[0m
+[00:02:31.945,373] ␛[1;31m<err> sx1280_ranging: Ranging Failed.␛[0m
+[00:02:32.079,864] ␛[1;31m<err> sx1280: Ranging Timeout.␛[0m
+[00:02:32.079,895] ␛[1;31m<err> sx1280_ranging: Ranging Failed.␛[0m
+[00:02:32.214,385] ␛[1;31m<err> sx1280: Ranging Timeout.␛[0m
+[00:02:32.214,416] ␛[1;31m<err> sx1280_ranging: Ranging Failed.␛[0m
+[00:02:32.348,907] ␛[1;31m<err> sx1280: Ranging Timeout.␛[0m
+[00:02:32.348,937] ␛[1;31m<err> sx1280_ranging: Ranging Failed.␛[0m
+[00:02:32.483,398] ␛[1;31m<err> sx1280: Ranging Timeout.␛[0m
+[00:02:32.483,459] ␛[1;31m<err> sx1280_ranging: Ranging Failed.␛[0m
+[00:02:32.617,950] ␛[1;31m<err> sx1280: Ranging Timeout.␛[0m
+[00:02:32.617,980] ␛[1;31m<err> sx1280_ranging: Ranging Failed.␛[0m
+[00:02:32.752,471] ␛[1;31m<err> sx1280: Ranging Timeout.␛[0m
+[00:02:32.752,502] ␛[1;31m<err> sx1280_ranging: Ranging Failed.␛[0m
+[00:02:32.886,993] ␛[1;31m<err> sx1280: Ranging Timeout.␛[0m
+[00:02:32.887,023] ␛[1;31m<err> sx1280_ranging: Ranging Failed.␛[0m
+[00:02:33.021,514] ␛[1;31m<err> sx1280: Ranging Timeout.␛[0m
+[00:02:33.021,545] ␛[1;31m<err> sx1280_ranging: Ranging Failed.␛[0m
+[00:02:33.156,005] ␛[1;31m<err> sx1280: Ranging Timeout.␛[0m
+[00:02:33.156,066] ␛[1;31m<err> sx1280_ranging: Ranging Failed.␛[0m
+[00:02:33.290,557] ␛[1;31m<err> sx1280: Ranging Timeout.␛[0m
+[00:02:33.290,588] ␛[1;31m<err> sx1280_ranging: Ranging Failed.␛[0m
+[00:02:33.425,079] ␛[1;31m<err> sx1280: Ranging Timeout.␛[0m
+[00:02:33.425,109] ␛[1;31m<err> sx1280_ranging: Ranging Failed.␛[0m
+[00:02:33.559,600] ␛[1;31m<err> sx1280: Ranging Timeout.␛[0m
+[00:02:33.559,631] ␛[1;31m<err> sx1280_ranging: Ranging Failed.␛[0m
+[00:02:33.694,122] ␛[1;31m<err> sx1280: Ranging Timeout.␛[0m
+[00:02:33.694,152] ␛[1;31m<err> sx1280_ranging: Ranging Failed.␛[0m
+[00:02:33.828,613] ␛[1;31m<err> sx1280: Ranging Timeout.␛[0m
+[00:02:33.828,674] ␛[1;31m<err> sx1280_ranging: Ranging Failed.␛[0m
+[00:02:33.963,165] ␛[1;31m<err> sx1280: Ranging Timeout.␛[0m
+[00:02:33.963,195] ␛[1;31m<err> sx1280_ranging: Ranging Failed.␛[0m
+[00:02:34.097,686] ␛[1;31m<err> sx1280: Ranging Timeout.␛[0m
+[00:02:34.097,717] ␛[1;31m<err> sx1280_ranging: Ranging Failed.␛[0m
+[00:02:34.232,208] ␛[1;31m<err> sx1280: Ranging Timeout.␛[0m
+[00:02:34.232,238] ␛[1;31m<err> sx1280_ranging: Ranging Failed.␛[0m
+[00:02:34.366,729] ␛[1;31m<err> sx1280: Ranging Timeout.␛[0m
+[00:02:34.366,760] ␛[1;31m<err> sx1280_ranging: Ranging Failed.␛[0m
+[00:02:34.501,220] ␛[1;31m<err> sx1280: Ranging Timeout.␛[0m
+[00:02:34.501,281] ␛[1;31m<err> sx1280_ranging: Ranging Failed.␛[0m
+[00:02:34.635,772] ␛[1;31m<err> sx1280: Ranging Timeout.␛[0m
+[00:02:34.635,803] ␛[1;31m<err> sx1280_ranging: Ranging Failed.␛[0m
+[00:02:34.770,294] ␛[1;31m<err> sx1280: Ranging Timeout.␛[0m
+[00:02:34.770,324] ␛[1;31m<err> sx1280_ranging: Ranging Failed.␛[0m
+[00:02:34.904,815] ␛[1;31m<err> sx1280: Ranging Timeout.␛[0m
+[00:02:34.904,846] ␛[1;31m<err> sx1280_ranging: Ranging Failed.␛[0m
+[00:02:35.039,337] ␛[1;31m<err> sx1280: Ranging Timeout.␛[0m
+[00:02:35.039,367] ␛[1;31m<err> sx1280_ranging: Ranging Failed.␛[0m
+[00:02:35.173,797] ␛[1;31m<err> sx1280: Ranging Timeout.␛[0m
+[00:02:35.173,858] ␛[1;31m<err> sx1280_ranging: Ranging Failed.␛[0m
+[00:02:35.308,349] ␛[1;31m<err> sx1280: Ranging Timeout.␛[0m
+[00:02:35.308,380] ␛[1;31m<err> sx1280_ranging: Ranging Failed.␛[0m
+[00:02:35.442,871] ␛[1;31m<err> sx1280: Ranging Timeout.␛[0m
+[00:02:35.442,901] ␛[1;31m<err> sx1280_ranging: Ranging Failed.␛[0m
+[00:02:35.577,392] ␛[1;31m<err> sx1280: Ranging Timeout.␛[0m
+[00:02:35.577,423] ␛[1;31m<err> sx1280_ranging: Ranging Failed.␛[0m
+[00:02:35.711,914] ␛[1;31m<err> sx1280: Ranging Timeout.␛[0m
+[00:02:35.711,944] ␛[1;31m<err> sx1280_ranging: Ranging Failed.␛[0m
+[00:02:35.846,374] ␛[1;31m<err> sx1280: Ranging Timeout.␛[0m
+[00:02:35.846,435] ␛[1;31m<err> sx1280_ranging: Ranging Failed.␛[0m
+[00:02:35.980,926] ␛[1;31m<err> sx1280: Ranging Timeout.␛[0m
+[00:02:35.980,957] ␛[1;31m<err> sx1280_ranging: Ranging Failed.␛[0m
+[00:02:36.115,447] ␛[1;31m<err> sx1280: Ranging Timeout.␛[0m
+[00:02:36.115,478] ␛[1;31m<err> sx1280_ranging: Ranging Failed.␛[0m
+[00:02:36.249,969] ␛[1;31m<err> sx1280: Ranging Timeout.␛[0m
+[00:02:36.250,000] ␛[1;31m<err> sx1280_ranging: Ranging Failed.␛[0m
+[00:02:36.384,490] ␛[1;31m<err> sx1280: Ranging Timeout.␛[0m
+[00:02:36.384,521] ␛[1;31m<err> sx1280_ranging: Ranging Failed.␛[0m
+[00:02:36.518,951] ␛[1;31m<err> sx1280: Ranging Timeout.␛[0m
+[00:02:36.519,012] ␛[1;31m<err> sx1280_ranging: Ranging Failed.␛[0m
+[00:02:36.653,503] ␛[1;31m<err> sx1280: Ranging Timeout.␛[0m
+[00:02:36.653,533] ␛[1;31m<err> sx1280_ranging: Ranging Failed.␛[0m
+[00:02:36.788,024] ␛[1;31m<err> sx1280: Ranging Timeout.␛[0m
+[00:02:36.788,055] ␛[1;31m<err> sx1280_ranging: Ranging Failed.␛[0m
+[00:02:36.922,546] ␛[1;31m<err> sx1280: Ranging Timeout.␛[0m
+[00:02:36.922,576] ␛[1;31m<err> sx1280_ranging: Ranging Failed.␛[0m
+[00:02:37.057,067] ␛[1;31m<err> sx1280: Ranging Timeout.␛[0m
+[00:02:37.057,098] ␛[1;31m<err> sx1280_ranging: Ranging Failed.␛[0m
+[00:02:37.191,558] ␛[1;31m<err> sx1280: Ranging Timeout.␛[0m
+[00:02:37.191,619] ␛[1;31m<err> sx1280_ranging: Ranging Failed.␛[0m
+[00:02:37.326,110] ␛[1;31m<err> sx1280: Ranging Timeout.␛[0m
+[00:02:37.326,141] ␛[1;31m<err> sx1280_ranging: Ranging Failed.␛[0m
+[00:02:37.460,632] ␛[1;31m<err> sx1280: Ranging Timeout.␛[0m
+[00:02:37.460,662] ␛[1;31m<err> sx1280_ranging: Ranging Failed.␛[0m
+[00:02:37.595,153] ␛[1;31m<err> sx1280: Ranging Timeout.␛[0m
+[00:02:37.595,184] ␛[1;31m<err> sx1280_ranging: Ranging Failed.␛[0m
+[00:02:37.729,675] ␛[1;31m<err> sx1280: Ranging Timeout.␛[0m
+[00:02:37.729,705] ␛[1;31m<err> sx1280_ranging: Ranging Failed.␛[0m
+[00:02:37.864,166] ␛[1;31m<err> sx1280: Ranging Timeout.␛[0m
+[00:02:37.864,227] ␛[1;31m<err> sx1280_ranging: Ranging Failed.␛[0m
+[00:02:37.998,718] ␛[1;31m<err> sx1280: Ranging Timeout.␛[0m
+[00:02:37.998,748] ␛[1;31m<err> sx1280_ranging: Ranging Failed.␛[0m
+[00:02:38.133,239] ␛[1;31m<err> sx1280: Ranging Timeout.␛[0m
+[00:02:38.133,270] ␛[1;31m<err> sx1280_ranging: Ranging Failed.␛[0m
+[00:02:38.267,761] ␛[1;31m<err> sx1280: Ranging Timeout.␛[0m
+[00:02:38.267,791] ␛[1;31m<err> sx1280_ranging: Ranging Failed.␛[0m
+[00:02:38.402,282] ␛[1;31m<err> sx1280: Ranging Timeout.␛[0m
+[00:02:38.402,313] ␛[1;31m<err> sx1280_ranging: Ranging Failed.␛[0m
+[00:02:38.536,773] ␛[1;31m<err> sx1280: Ranging Timeout.␛[0m
+[00:02:38.536,834] ␛[1;31m<err> sx1280_ranging: Ranging Failed.␛[0m
+[00:02:38.671,325] ␛[1;31m<err> sx1280: Ranging Timeout.␛[0m
+[00:02:38.671,356] ␛[1;31m<err> sx1280_ranging: Ranging Failed.␛[0m
+[00:02:38.805,847] ␛[1;31m<err> sx1280: Ranging Timeout.␛[0m
+[00:02:38.805,877] ␛[1;31m<err> sx1280_ranging: Ranging Failed.␛[0m
+[00:02:38.940,368] ␛[1;31m<err> sx1280: Ranging Timeout.␛[0m
+[00:02:38.940,399] ␛[1;31m<err> sx1280_ranging: Ranging Failed.␛[0m
+[00:02:39.074,890] ␛[1;31m<err> sx1280: Ranging Timeout.␛[0m
+[00:02:39.074,920] ␛[1;31m<err> sx1280_ranging: Ranging Failed.␛[0m
+[00:02:39.209,381] ␛[1;31m<err> sx1280: Ranging Timeout.␛[0m
+[00:02:39.209,442] ␛[1;31m<err> sx1280_ranging: Ranging Failed.␛[0m
+[00:02:39.343,933] ␛[1;31m<err> sx1280: Ranging Timeout.␛[0m
+[00:02:39.343,963] ␛[1;31m<err> sx1280_ranging: Ranging Failed.␛[0m
+[00:02:39.478,454] ␛[1;31m<err> sx1280: Ranging Timeout.␛[0m
+[00:02:39.478,485] ␛[1;31m<err> sx1280_ranging: Ranging Failed.␛[0m
+[00:02:39.612,976] ␛[1;31m<err> sx1280: Ranging Timeout.␛[0m
+[00:02:39.613,006] ␛[1;31m<err> sx1280_ranging: Ranging Failed.␛[0m
+[00:02:39.747,497] ␛[1;31m<err> sx1280: Ranging Timeout.␛[0m
+[00:02:39.747,528] ␛[1;31m<err> sx1280_ranging: Ranging Failed.␛[0m
+[00:02:39.881,988] ␛[1;31m<err> sx1280: Ranging Timeout.␛[0m
+[00:02:39.882,049] ␛[1;31m<err> sx1280_ranging: Ranging Failed.␛[0m
+[00:02:40.016,540] ␛[1;31m<err> sx1280: Ranging Timeout.␛[0m
+[00:02:40.016,571] ␛[1;31m<err> sx1280_ranging: Ranging Failed.␛[0m
+[00:02:40.151,062] ␛[1;31m<err> sx1280: Ranging Timeout.␛[0m
+[00:02:40.151,092] ␛[1;31m<err> sx1280_ranging: Ranging Failed.␛[0m
+[00:02:40.285,583] ␛[1;31m<err> sx1280: Ranging Timeout.␛[0m
+[00:02:40.285,614] ␛[1;31m<err> sx1280_ranging: Ranging Failed.␛[0m
+[00:02:40.420,104] ␛[1;31m<err> sx1280: Ranging Timeout.␛[0m
+[00:02:40.420,135] ␛[1;31m<err> sx1280_ranging: Ranging Failed.␛[0m
+[00:02:40.554,595] ␛[1;31m<err> sx1280: Ranging Timeout.␛[0m
+[00:02:40.554,656] ␛[1;31m<err> sx1280_ranging: Ranging Failed.␛[0m
+[00:02:40.689,147] ␛[1;31m<err> sx1280: Ranging Timeout.␛[0m
+[00:02:40.689,178] ␛[1;31m<err> sx1280_ranging: Ranging Failed.␛[0m
+[00:02:40.823,669] ␛[1;31m<err> sx1280: Ranging Timeout.␛[0m
+[00:02:40.823,699] ␛[1;31m<err> sx1280_ranging: Ranging Failed.␛[0m
+[00:02:40.958,190] ␛[1;31m<err> sx1280: Ranging Timeout.␛[0m
+[00:02:40.958,221] ␛[1;31m<err> sx1280_ranging: Ranging Failed.␛[0m
+[00:02:41.092,712] ␛[1;31m<err> sx1280: Ranging Timeout.␛[0m
+[00:02:41.092,742] ␛[1;31m<err> sx1280_ranging: Ranging Failed.␛[0m
+[00:02:41.227,203] ␛[1;31m<err> sx1280: Ranging Timeout.␛[0m
+[00:02:41.227,264] ␛[1;31m<err> sx1280_ranging: Ranging Failed.␛[0m
+[00:02:41.361,755] ␛[1;31m<err> sx1280: Ranging Timeout.␛[0m
+[00:02:41.361,785] ␛[1;31m<err> sx1280_ranging: Ranging Failed.␛[0m
+[00:02:41.496,276] ␛[1;31m<err> sx1280: Ranging Timeout.␛[0m
+[00:02:41.496,307] ␛[1;31m<err> sx1280_ranging: Ranging Failed.␛[0m
+[00:02:41.630,798] ␛[1;31m<err> sx1280: Ranging Timeout.␛[0m
+[00:02:41.630,828] ␛[1;31m<err> sx1280_ranging: Ranging Failed.␛[0m
+[00:02:41.765,319] ␛[1;31m<err> sx1280: Ranging Timeout.␛[0m
+[00:02:41.765,350] ␛[1;31m<err> sx1280_ranging: Ranging Failed.␛[0m
+[00:02:41.899,810] ␛[1;31m<err> sx1280: Ranging Timeout.␛[0m
+[00:02:41.899,871] ␛[1;31m<err> sx1280_ranging: Ranging Failed.␛[0m
+[00:02:42.034,362] ␛[1;31m<err> sx1280: Ranging Timeout.␛[0m
+[00:02:42.034,393] ␛[1;31m<err> sx1280_ranging: Ranging Failed.␛[0m
+[00:02:42.168,884] ␛[1;31m<err> sx1280: Ranging Timeout.␛[0m
+[00:02:42.168,914] ␛[1;31m<err> sx1280_ranging: Ranging Failed.␛[0m
+[00:02:42.303,405] ␛[1;31m<err> sx1280: Ranging Timeout.␛[0m
+[00:02:42.303,436] ␛[1;31m<err> sx1280_ranging: Ranging Failed.␛[0m
+[00:02:42.437,927] ␛[1;31m<err> sx1280: Ranging Timeout.␛[0m
+[00:02:42.437,957] ␛[1;31m<err> sx1280_ranging: Ranging Failed.␛[0m
+[00:02:42.572,418] ␛[1;31m<err> sx1280: Ranging Timeout.␛[0m
+[00:02:42.572,479] ␛[1;31m<err> sx1280_ranging: Ranging Failed.␛[0m
+[00:02:42.706,970] ␛[1;31m<err> sx1280: Ranging Timeout.␛[0m
+[00:02:42.707,000] ␛[1;31m<err> sx1280_ranging: Ranging Failed.␛[0m
+[00:02:42.841,491] ␛[1;31m<err> sx1280: Ranging Timeout.␛[0m
+[00:02:42.841,522] ␛[1;31m<err> sx1280_ranging: Ranging Failed.␛[0m
+[00:02:42.976,013] ␛[1;31m<err> sx1280: Ranging Timeout.␛[0m
+[00:02:42.976,043] ␛[1;31m<err> sx1280_ranging: Ranging Failed.␛[0m
+[00:02:43.110,534] ␛[1;31m<err> sx1280: Ranging Timeout.␛[0m
+[00:02:43.110,565] ␛[1;31m<err> sx1280_ranging: Ranging Failed.␛[0m
+[00:02:43.244,995] ␛[1;31m<err> sx1280: Ranging Timeout.␛[0m
+[00:02:43.245,056] ␛[1;31m<err> sx1280_ranging: Ranging Failed.␛[0m
+[00:02:43.379,547] ␛[1;31m<err> sx1280: Ranging Timeout.␛[0m
+[00:02:43.379,577] ␛[1;31m<err> sx1280_ranging: Ranging Failed.␛[0m
+[00:02:43.514,068] ␛[1;31m<err> sx1280: Ranging Timeout.␛[0m
+[00:02:43.514,099] ␛[1;31m<err> sx1280_ranging: Ranging Failed.␛[0m
+[00:02:43.648,590] ␛[1;31m<err> sx1280: Ranging Timeout.␛[0m
+[00:02:43.648,620] ␛[1;31m<err> sx1280_ranging: Ranging Failed.␛[0m
+[00:02:43.783,111] ␛[1;31m<err> sx1280: Ranging Timeout.␛[0m
+[00:02:43.783,142] ␛[1;31m<err> sx1280_ranging: Ranging Failed.␛[0m
+[00:02:43.917,572] ␛[1;31m<err> sx1280: Ranging Timeout.␛[0m
+[00:02:43.917,633] ␛[1;31m<err> sx1280_ranging: Ranging Failed.␛[0m
+[00:02:44.052,124] ␛[1;31m<err> sx1280: Ranging Timeout.␛[0m
+[00:02:44.052,154] ␛[1;31m<err> sx1280_ranging: Ranging Failed.␛[0m
+[00:02:44.186,645] ␛[1;31m<err> sx1280: Ranging Timeout.␛[0m
+[00:02:44.186,676] ␛[1;31m<err> sx1280_ranging: Ranging Failed.␛[0m
+[00:02:44.321,166] ␛[1;31m<err> sx1280: Ranging Timeout.␛[0m
+[00:02:44.321,197] ␛[1;31m<err> sx1280_ranging: Ranging Failed.␛[0m
+[00:02:44.455,688] ␛[1;31m<err> sx1280: Ranging Timeout.␛[0m
+[00:02:44.455,718] ␛[1;31m<err> sx1280_ranging: Ranging Failed.␛[0m
+[00:02:44.590,179] ␛[1;31m<err> sx1280: Ranging Timeout.␛[0m
+[00:02:44.590,240] ␛[1;31m<err> sx1280_ranging: Ranging Failed.␛[0m
+[00:02:44.724,731] ␛[1;31m<err> sx1280: Ranging Timeout.␛[0m
+[00:02:44.724,761] ␛[1;31m<err> sx1280_ranging: Ranging Failed.␛[0m
+[00:02:44.859,252] ␛[1;31m<err> sx1280: Ranging Timeout.␛[0m
+[00:02:44.859,283] ␛[1;31m<err> sx1280_ranging: Ranging Failed.␛[0m
+[00:02:44.993,774] ␛[1;31m<err> sx1280: Ranging Timeout.␛[0m
+[00:02:44.993,804] ␛[1;31m<err> sx1280_ranging: Ranging Failed.␛[0m
+[00:02:45.128,295] ␛[1;31m<err> sx1280: Ranging Timeout.␛[0m
+[00:02:45.128,326] ␛[1;31m<err> sx1280_ranging: Ranging Failed.␛[0m
+[00:02:45.262,786] ␛[1;31m<err> sx1280: Ranging Timeout.␛[0m
+[00:02:45.262,8

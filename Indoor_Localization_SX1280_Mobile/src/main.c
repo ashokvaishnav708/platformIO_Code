@@ -30,6 +30,7 @@ BUILD_ASSERT(DT_NODE_HAS_STATUS(DEFAULT_RADIO_NODE, okay),
 #define ALL_DONE_PKT            0x06
 #define START_RANGING           0x07
 #define ANCHOR_PKT              0x10
+#define RE_RANGING_PKT           0x11
 #define NONE                    0xFF
 //
 
@@ -63,6 +64,9 @@ struct Anchor {
     uint32_t host_id;
     struct Coordinates coords;
     float distance;
+    float re_distance;
+    int16_t RSSI;
+    int16_t re_RSSI;
     struct Anchor *next;
 };
 
@@ -92,6 +96,9 @@ bool add_anchor(uint32_t host_id, struct Coordinates coords)
     n_anchor->coords = coords;
     n_anchor->host_id = host_id;
     n_anchor->distance = -1;
+    n_anchor->re_distance = -1;
+    n_anchor->RSSI = 0;
+    n_anchor->re_RSSI = 0;
     n_anchor->next = NULL;
 
     if(rear == NULL)
@@ -145,7 +152,10 @@ void show_anchors()
     {
         temp_anchor = front;
         do {
-            LOG_INF("Anchor ID: %x  Distance: %d", temp_anchor->host_id, temp_anchor->distance);
+            LOG_INF("Anchor ID: %x RSSI: %d  Distance: %d", 
+                temp_anchor->host_id, temp_anchor->RSSI, temp_anchor->distance);
+            LOG_INF("Re: Anchor ID: %x RSSI: %d  Distance: %d", 
+                temp_anchor->host_id, temp_anchor->re_RSSI, temp_anchor->re_distance);
             temp_anchor = temp_anchor->next;
         }while(temp_anchor != NULL);
     }
@@ -155,58 +165,7 @@ void show_anchors()
     }
 }
 
-
-/*
-bool broadcast_ranging_req(const struct device *sx1280_dev, uint32_t host_id, struct Coordinates coords)
-{
-    int ret;
-    uint8_t *payload_ptr;
-   
-    uint8_t data[MAX_DATA_LEN] = {RANGING_INIT, 
-                                ((device_address >> 24u ) & 0xFFu),
-                                ((device_address >> 16u ) & 0xFFu),
-                                ((device_address >> 8u ) & 0xFFu),
-                                (device_address & 0xFFu), };
-    */
-/*
-    
-    struct Payload payload = {  .host_id = host_id, 
-                                .operation = RANGING_INIT,
-                                .coords = coords};
-
-    payload_ptr = &payload;
-
-    ret = lora_send(sx1280_dev, payload_ptr, sizeof(payload));
-    if(ret < 0)
-    {
-        LOG_ERR("LoRa send failed");
-        return false;
-    }
-    return true;
-}
-
-*/
-/*
-void receive(const struct device *sx1280_dev, uint8_t *payload_ptr)
-{
-    int16_t rssi;
-	int8_t snr;
-    int len = -1;
-    while(len < 0)
-    {
-        len = lora_recv(sx1280_dev, payload_ptr, MAX_DATA_LEN, K_MSEC(500),
-				&rssi, &snr);
-        if (!(len < 0))
-        {
-            LOG_INF("Received data: %x %x , (RSSI:%ddBm, SNR:%ddBm)",
-                payload.dev_id, payload.operation, rssi, snr);
-        }
-    }
-}
-*/
-
-
-
+// Circle Intersection Code
 float square(float x)
 {
     return x*x;
@@ -299,7 +258,7 @@ struct Coordinates calc_dev_location()
     return dev_coord;
 }
 
-
+// main function 
 void main(void)
 {
     //Getting Device Id
@@ -414,19 +373,39 @@ void main(void)
                                     operation = RECEIVE;
                                     break;
                                 }
-                                k_sleep(K_MSEC(10));
-
-                                lora_setup_ranging(lora_dev, &config, host_id, ROLE_SENDER);
+                                //k_sleep(K_MSEC(10));
 
                                 anchor_ptr = front;
                                 do {
-
-                                    k_sleep(K_MSEC(10));
+                                    lora_setup_ranging(lora_dev, &config, host_id, ROLE_SENDER);
+                                    k_sleep(K_MSEC(30));
                                     ranging_result = lora_transmit_ranging(lora_dev, &config, (anchor_ptr->host_id));
                                     if(ranging_result.status != false)
                                     {
                                         anchor_ptr->distance = ranging_result.distance; // Distance in cm.
+                                        anchor_ptr->RSSI = ranging_result.RSSIVal;
+
+                                        lora_receive_ranging(lora_dev, &config, (anchor_ptr->host_id), K_MSEC(20));
+                                        //k_sleep(K_MSEC(1));
+                                        lora_config(lora_dev, &config);
+
+                                        // here from payload coordinates we use x and y as distance and RSSI respectively.
+                                        do {
+                                            LOG_INF("Re-Receiving");
+                                            lora_recv(lora_dev, payload_ptr, sizeof(payload), K_FOREVER, &rssi, &snr);
+                                        }while(payload.operation != RE_RANGING_PKT);
                                         
+                                        if(payload.coords.flag != false)
+                                        {
+                                            anchor_ptr->re_distance = payload.coords.x;
+                                            anchor_ptr->re_RSSI = (int16_t) payload.coords.y;
+                                        }
+                                        else
+                                        {
+                                            anchor_ptr->re_distance = -1;
+                                            anchor_ptr->re_RSSI = 0;
+                                        }
+
                                         prev_anchor = anchor_ptr;
                                         anchor_ptr = anchor_ptr->next;    
                                     }
@@ -441,6 +420,7 @@ void main(void)
                                     //LOG_INF(" Ranging Anchor : %x", anchor_ptr->host_id);
                                     
                                 }while(anchor_ptr != NULL);
+
                                 show_anchors();
                                 prev_anchor = NULL;
                                 ranging_done = true;
@@ -458,86 +438,5 @@ void main(void)
             default: operation = RECEIVE;
 
         }
-        /*
-        broadcast:
-        // Make a broadcast to initiate ranging
-        payload.operation = RANGING_INIT;
-        payload.host_id = host_id;
-        payload.coords = dev_coords;
-        do {
-            ret = lora_send(lora_dev, payload_ptr, sizeof(payload));
-        }while(ret < 0);
-        //while(!(broadcast_ranging_req(lora_dev, host_id, dev_coords)));
-
-        k_sleep(K_MSEC(15));
-        RECV_MODE:
-        // Receive Mode
-        do {
-            len = lora_recv(lora_dev, payload_ptr, MAX_DATA_LEN, K_MSEC(1000),
-				&rssi, &snr);
-            if (len > 0)
-            {
-                // Add Anchor to Queue if payload has RANGING_ACK
-                if(payload.operation == RANGING_ACK)
-                {
-                    if(!(add_anchor(payload.host_id, payload.coords)))
-                    {
-                        LOG_INF("Received Already Existing Anchor.");
-                    }
-                }
-                else
-                {
-                    len = -1;
-                }
-                
-            }
-        }
-        while(!(len < 0));
-
-        // Received all Anchors
-        // Check if we have sufficient Anchors replied (** Minimum 3 **)
-        //count = get_anchor_count();
-        if (!(anchor_count >= 3))
-        {
-            LOG_ERR("Not Sufficient(only %d) Anchors to proceed further.", anchor_count);
-            show_anchors();
-            goto RECV_MODE;
-        }
-
-        LOG_INF("Modules Replied : %d", anchor_count);
-        show_anchors();
-        
-    
-        // Start Ranging
-        ret = lora_setup_ranging(lora_dev, &config, host_id, ROLE_SENDER);
-        if(ret != true) {
-            LOG_ERR("LoRa config failed.");
-            return;
-        }
-
-        anchor_ptr = front;
-        do {
-            ranging_result = lora_transmit_ranging(lora_dev, &config, anchor_ptr->host_id, TxtimeoutmS);
-            if(ranging_result.status != false)
-            {
-                anchor_ptr->distance = ranging_result.distance; // Distance in cm.
-                
-            }
-            else{
-                anchor_ptr->distance = 0.0;
-            }
-            anchor_ptr = anchor_ptr->next;
-
-        }while(anchor_ptr != NULL);
-
-
-    
-
-        // Circle Algorithm
-
-        //dev_coords = calc_device_location();
-
-        k_sleep(K_MSEC(1000));
-        */
 	}
 }

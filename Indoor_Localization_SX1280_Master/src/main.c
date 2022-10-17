@@ -326,47 +326,7 @@ void main(void)
                                 count = 0;
                                 operation = RECEIVE;
                                 break;
-            /*
-            case SEND_ACK_PKT:  if(anchor_counter == MAX_ANCHORS)
-                                {
-                                    payload.operation = ALL_DONE_PKT;
-                                    payload.host_id = host_id;
-                                    payload.coords = dev_coords;
 
-                                    k_sleep(K_MSEC(30));
-                                    ret = lora_send(lora_dev, payload_ptr, sizeof(payload));
-                                    if(ret < 0) {
-                                        LOG_ERR("Ranging Ack failed.");
-                                    }
-                                    k_sleep(K_MSEC(20));
-                                    LOG_INF("SENT ALL DONE PKT.");
-                                    anchor_counter = 0;
-                                    operation = RECEIVE;
-                                    break;
-                                }
-                                payload.operation = SEND_ACK_PKT;
-                                payload.host_id = anchor_id[anchor_counter];
-                                get_host_coordinates(payload.host_id, &payload.coords);
-
-                                k_sleep(K_MSEC(30));
-                                ret = lora_send(lora_dev, payload_ptr, sizeof(payload));
-                                if(ret < 0) {
-                                    LOG_ERR("Ranging Ack failed.");
-                                }
-                                k_sleep(K_MSEC(20));
-                                LOG_INF("SENT ACK PKT.");
-                                operation = RECEIVE;
-                                break;   
-            case RANGING_ACK:   if(payload.host_id != anchor_id[anchor_counter])
-                                {
-                                    operation = RECEIVE;
-                                    break;
-                                }
-                                anchor_counter++;
-                                LOG_INF("RANGING ACK PKT RECEIVED.");
-                                operation = SEND_ACK_PKT;
-                                break;
-            */
             default: operation = RECEIVE;
         }
 

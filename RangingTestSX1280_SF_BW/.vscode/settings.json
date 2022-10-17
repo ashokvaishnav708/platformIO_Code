@@ -1,5 +1,6 @@
 {
     "files.associations": {
-        "zephyr.h": "c"
+        "zephyr.h": "c",
+        "log.h": "c"
     }
 }
