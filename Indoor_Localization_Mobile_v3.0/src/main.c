@@ -31,6 +31,7 @@ BUILD_ASSERT(DT_NODE_HAS_STATUS(DEFAULT_RADIO_NODE, okay),
 #define START_RANGING 0x07
 #define ANCHOR_PKT 0x10
 #define RE_RANGING_PKT 0x11
+#define CORNER_PKT 0x12
 #define NONE 0xFF
 //
 
@@ -64,19 +65,20 @@ struct Anchor
     uint32_t host_id;
     struct Coordinates coords;
     float distance;
-    // float re_distance;
     int16_t RSSI;
-    // int16_t re_RSSI;
     struct Anchor *next;
 };
 
-bool equate_coordinates(struct Coordinates coord1, struct Coordinates coord2)
-{
-    if ((coord1.x) == (coord2.x) && (coord1.y) == (coord2.y))
-        return true;
-    else
-        return false;
-}
+struct Coordinates bottom_left_corner = {
+    .flag = false,
+    .x = -1,
+    .y = -1,
+};
+struct Coordinates top_right_corner = {
+    .flag = false,
+    .x = -1,
+    .y = -1,
+};
 
 /* ********* Queue Operations ********** */
 
@@ -194,44 +196,177 @@ struct IPs
 {
     struct Coordinates coords;
     struct IPs *next;
-} ips_list;
+};
 
-void add_intersection(struct IPs *ips_front, struct IPs *ips_rear, struct Coordinates coords)
+#define IPs_LIST1 0x00
+#define IPs_LIST2 0x01
+#define POLYGON_IPs 0x02
+
+struct IPs *ips_list1_front = NULL;
+struct IPs *ips_list1_rear = NULL;
+
+struct IPs *ips_list2_front = NULL;
+struct IPs *ips_list2_rear = NULL;
+
+struct IPs *ips_polygon_front = NULL;
+struct IPs *ips_polygon_rear = NULL;
+
+bool equate_coordinates(struct Coordinates coord1, struct Coordinates coord2)
 {
+    if ((coord1.x == coord2.x) && (coord1.y == coord2.y))
+        return true;
+    else
+        return false;
+}
+
+bool already_existing_intersection(struct Coordinates coords, uint8_t IPs_Type)
+{
+    struct IPs *temp_ip = NULL;
+
+    if (IPs_Type == IPs_LIST1)
+    {
+        temp_ip = ips_list1_front;
+    }
+    else if (IPs_Type == IPs_LIST2)
+    {
+        temp_ip = ips_list2_front;
+    }
+
+    do
+    {
+        if ((equate_coordinates(coords, temp_ip->coords)))
+        {
+            return true;
+        }
+        temp_ip = temp_ip->next;
+    } while (temp_ip != NULL);
+    return false;
+}
+
+void add_intersection(struct Coordinates coords, uint8_t IPs_Type)
+{
+
     struct IPs *n_ip = malloc(sizeof(struct IPs));
     n_ip->coords = coords;
     n_ip->next = NULL;
-    if (ips_rear == NULL)
-    {
-        ips_front = n_ip;
-        ips_rear = n_ip;
-    }
-    else
-    {
-        ips_rear->next = n_ip;
-        ips_rear = ips_rear->next;
-    }
-}
 
-void remove_all_intersections(struct IPs *ips_front, struct IPs *ips_rear)
-{
-    struct IPs *temp_ip;
-    if (ips_front != NULL)
+    if (IPs_Type == IPs_LIST1)
     {
-        do
+        if (ips_list1_rear == NULL)
         {
-            temp_ip = ips_front;
-            ips_front = ips_front->next;
-            free(temp_ip);
-        } while (ips_front != NULL);
+            ips_list1_front = n_ip;
+            ips_list1_rear = n_ip;
+        }
+        else
+        {
+            if (!(already_existing_intersection(coords, IPs_Type)))
+            {
+                ips_list1_rear->next = n_ip;
+                ips_list1_rear = ips_list1_rear->next;
+            }
+        }
     }
-    ips_rear = NULL;
+    else if (IPs_Type == IPs_LIST2)
+    {
+        if (ips_list2_rear == NULL)
+        {
+            ips_list2_front = n_ip;
+            ips_list2_rear = n_ip;
+        }
+        else
+        {
+            if (!already_existing_intersection(coords, IPs_Type))
+            {
+                ips_list2_rear->next = n_ip;
+                ips_list2_rear = ips_list2_rear->next;
+            }
+        }
+    }
 }
 
-bool equate_intersections(struct IPs *ips_front, struct IPs *ips_rear, struct Coordinates coords)
+int get_intersection_count(uint8_t IPs_Type)
+{
+    int count = 0;
+    struct IPs *temp_ip;
+
+    if (IPs_Type == IPs_LIST1)
+    {
+        if (ips_list1_front != NULL)
+        {
+            temp_ip = ips_list1_front;
+            do
+            {
+                // LOG_INF("IP: [%d, %d]", temp_ip->coords.x, temp_ip->coords.y);
+                count++;
+                temp_ip = temp_ip->next;
+            } while (temp_ip != NULL);
+        }
+        else
+            LOG_INF("Intersection Points Queue Empty.");
+    }
+    else if (IPs_Type == IPs_LIST2)
+    {
+        if (ips_list2_front != NULL)
+        {
+            temp_ip = ips_list2_front;
+            do
+            {
+                // LOG_INF("IP: [%d, %d]", temp_ip->coords.x, temp_ip->coords.y);
+                count++;
+                temp_ip = temp_ip->next;
+            } while (temp_ip != NULL);
+        }
+        else
+            LOG_INF("Intersection Points Queue Empty.");
+    }
+    return count;
+}
+
+void remove_all_intersections(uint8_t IPs_Type)
 {
     struct IPs *temp_ip;
-    temp_ip = ips_front;
+
+    if (IPs_Type == IPs_LIST1)
+    {
+        if (ips_list1_front != NULL)
+        {
+            do
+            {
+                temp_ip = ips_list1_front;
+                ips_list1_front = ips_list1_front->next;
+                free(temp_ip);
+            } while (ips_list1_front != NULL);
+        }
+        ips_list1_rear = NULL;
+    }
+    else if (IPs_Type == IPs_LIST2)
+    {
+        if (ips_list2_front != NULL)
+        {
+            do
+            {
+                temp_ip = ips_list2_front;
+                ips_list2_front = ips_list2_front->next;
+                free(temp_ip);
+            } while (ips_list2_front != NULL);
+        }
+        ips_list2_rear = NULL;
+    }
+}
+
+bool equate_intersections(struct Coordinates coords, uint8_t IPs_Type)
+{
+
+    struct IPs *temp_ip = NULL;
+
+    if (IPs_Type == IPs_LIST1)
+    {
+        temp_ip = ips_list1_front;
+    }
+    else if (IPs_Type == IPs_LIST2)
+    {
+        temp_ip = ips_list2_front;
+    }
     do
     {
         if (equate_coordinates(temp_ip->coords, coords))
@@ -243,35 +378,60 @@ bool equate_intersections(struct IPs *ips_front, struct IPs *ips_rear, struct Co
     return false;
 }
 
-void remove_duplicate_intersections(struct IPs *ips_front, struct IPs *ips_rear, struct IPs *new_ips_front, struct IPs *new_ips_rear)
+bool is_inside_building(struct Coordinates coords)
 {
+    float x = coords.x;
+    float y = coords.y;
+    if (x > bottom_left_corner.x && x < top_right_corner.x && y > bottom_left_corner.y && y < top_right_corner.y)
+    {
+        return true;
+    }
+    else
+        return false;
+}
+
+/*
+Removes duplicates from IPs_1 list to IPs_2 list
+*/
+/*
+int remove_duplicate_intersections()
+{
+    LOG_INF("In Removing Duplicate Intersection Points.");
+    int count = 0;
     struct IPs *temp_ip;
-    if (ips_front != NULL)
+    if (ips_list1_front != NULL)
     {
         do
         {
-            temp_ip = ips_front;
-            if (new_ips_rear == NULL)
+            temp_ip = ips_list1_front;
+            if (ips_list2_rear == NULL)
             {
-                add_intersection(new_ips_front, new_ips_rear, temp_ip->coords);
+                add_intersection(temp_ip->coords, IPs_LIST2);
             }
             else
             {
-                if (!(equate_intersections(new_ips_front, new_ips_rear, temp_ip->coords)))
+                if (!(equate_intersections(temp_ip->coords, IPs_LIST2)))
                 {
-                    add_intersection(new_ips_front, new_ips_rear, temp_ip->coords);
+                    if (is_inside_building(temp_ip->coords))
+                    {
+                        add_intersection(temp_ip->coords, IPs_LIST2);
+                        count++;
+                    }
                 }
             }
-            ips_front = ips_front->next;
+            ips_list1_front = ips_list1_front->next;
             free(temp_ip);
-        } while (ips_front != NULL);
+        } while (ips_list1_front != NULL);
     }
-    ips_rear = NULL;
+    ips_list1_rear = NULL;
+    return count;
 }
+*/
 
-/****************************************************/
+/**********************************************************************************/
+/************************** Geometrical Mathematics Code **************************/
+/**********************************************************************************/
 
-// Circle Intersection Code
 float square(float x)
 {
     return x * x;
@@ -289,70 +449,86 @@ bool coordinates_set_intersection(struct Coordinates *coord0, struct Coordinates
 }
 */
 
-void get_centroid(struct IPs *ips_front, struct IPs *ips_rear, struct Coordinates *coords)
+struct Coordinates get_centroid(uint8_t IPs_Type)
 {
-    struct IPs *temp_ip;
+    struct Coordinates coords;
+    struct IPs *temp_ip = NULL;
     int count = 0;
-    temp_ip = ips_front;
+    LOG_INF("In Calculating centroid.");
+
+    if (IPs_Type == IPs_LIST1)
+        temp_ip = ips_list1_front;
+    else if (IPs_Type == IPs_LIST2)
+        temp_ip = ips_list2_front;
+
     do
     {
-        coords->x += temp_ip->coords.x;
-        coords->y += temp_ip->coords.y;
+        coords.x += temp_ip->coords.x;
+        coords.y += temp_ip->coords.y;
 
         count++;
         temp_ip = temp_ip->next;
     } while (temp_ip != NULL);
 
-    coords->x = (coords->x / count);
-    coords->y = (coords->y / count);
-    coords->flag = true;
+    coords.x = (coords.x / count);
+    coords.y = (coords.y / count);
+    coords.flag = true;
+    return coords;
 }
 
 void circles_intersection(struct Anchor *anchor1, struct Anchor *anchor2, struct Coordinates *coord, struct Coordinates *coord_prime)
 {
-    // struct Coordinates coord, coord_prime;
+
+    //  struct Coordinates coord, coord_prime;
     float x2, y2, dx, dy;
 
     float dist, a, h;
 
-    dx = anchor1->coords.x - anchor2->coords.x;
-    dy = anchor1->coords.y - anchor2->coords.y;
+    dx = anchor2->coords.x - anchor1->coords.x;
+    dy = anchor2->coords.y - anchor1->coords.y;
+
+    // LOG_INF("In Calculating circle intersection.");
 
     dist = hypot(dx, dy);
 
     // Check if two circles are not same || circles do not meet || one circle is inside another one
     if ((dist == 0.0 && anchor1->distance == anchor2->distance) || (dist > (anchor1->distance + anchor2->distance)) || (dist < fabs(anchor1->distance - anchor2->distance)))
     {
+        // LOG_INF("Intersection not possible.");
         coord->flag = false;
         coord_prime->flag = false;
     }
     else
     {
-        a = ((square(anchor1->distance) - square(anchor2->distance) + square(dist)) / (2.0 * dist));
+        a = (square(anchor1->distance) - square(anchor2->distance) + square(dist)) / (2.0 * dist);
         h = sqrt(square(anchor1->distance) - square(a));
 
         x2 = anchor1->coords.x + (dx * a / dist);
         y2 = anchor1->coords.y + (dy * a / dist);
 
-        coord->x = ceil(x2 - (dy * h / dist));
-        coord_prime->x = ceil(x2 + (dy * h / dist));
-        coord->flag = true;
+        coord->x = ceil(x2 + (dy * h / dist));
+        coord_prime->x = ceil(x2 - (dy * h / dist));
 
-        coord->y = ceil(y2 + (dx * h / dist));
-        coord_prime->y = ceil(y2 - (dx * h / dist));
+        coord->y = ceil(y2 - (dx * h / dist));
+        coord_prime->y = ceil(y2 + (dx * h / dist));
+
         coord->flag = true;
+        coord_prime->flag = true;
+
+        // LOG_INF("Intersection : (%d, %d) (%d, %d)", coord->x, coord->y, coord_prime->x, coord_prime->y);
     }
 }
 
 bool is_inside(struct Anchor *anchor, struct Coordinates coords)
 {
+
     float circle_x = anchor->coords.x;
     float circle_y = anchor->coords.y;
 
     float x = coords.x;
     float y = coords.y;
 
-    if (square(x - circle_x) + square(y - circle_y) <= square((anchor->distance)) + 1)
+    if (square(x - circle_x) + square(y - circle_y) <= square((anchor->distance) + 5))
         return true;
     else
         return false;
@@ -360,6 +536,7 @@ bool is_inside(struct Anchor *anchor, struct Coordinates coords)
 
 int is_inside_circles(struct Coordinates coords)
 {
+
     int count = 0;
     struct Anchor *temp_anchor;
     temp_anchor = front;
@@ -374,47 +551,59 @@ int is_inside_circles(struct Coordinates coords)
         }
         temp_anchor = temp_anchor->next;
     } while (temp_anchor != NULL);
-    return false;
+    return count;
 }
 
-void get_polygon(struct IPs *ips_front, struct IPs *ips_rear, struct IPs *new_ips_front, struct IPs *new_ips_rear, int error, int active_anchors)
+int get_polygon(uint8_t from_Type, uint8_t to_Type, int error, int active_anchors)
 {
-    struct IPs *temp_ip;
+    int count = 0;
+    int circle_count = 0;
+    struct IPs *temp_ip = NULL;
+
+    if (from_Type == IPs_LIST1)
+        temp_ip = ips_list1_front;
+    else if (from_Type == IPs_LIST2)
+        temp_ip = ips_list2_front;
+
     do
     {
-        temp_ip = ips_front;
-        if (is_inside_circles(temp_ip->coords) >= (active_anchors - error))
+        circle_count = is_inside_circles(temp_ip->coords);
+        // LOG_INF("In %d circles", circle_count);
+        if (circle_count >= (active_anchors - error))
         {
-            add_intersection(new_ips_front, new_ips_rear, temp_ip->coords);
+            add_intersection(temp_ip->coords, to_Type);
+            count++;
         }
-        ips_front = temp_ip->next;
-        free(temp_ip);
-    } while (ips_front != NULL);
+        temp_ip = temp_ip->next;
+    } while (temp_ip != NULL);
+    return count;
 }
 
-void calc_dev_location(struct Coordinates *dev_coord)
+struct Coordinates get_dev_location()
 {
+    struct Coordinates dev_coords = {
+        .flag = false,
+        .x = -1,
+        .y = -1,
+    };
     struct Coordinates coord, coord_prime;
+
+    struct Coordinates *coord_ptr, *coord_prime_ptr;
+    coord_ptr = &coord;
+    coord_prime_ptr = &coord_prime;
+
     struct Anchor *anchor_ptr_i;
     struct Anchor *anchor_ptr_j;
-    // bool first_iter = true;
-    // dev_coord.flag = NULL;
-    // temp_coord.flag = NULL;
-
-    struct IPs *ips_front = NULL;
-    struct IPs *ips_rear = NULL;
-
-    struct IPs *ips_filtered_front = NULL;
-    struct IPs *ips_filtered_rear = NULL;
-
-    struct IPs *ips_polygon_front = NULL;
-    struct IPs *ips_polygon_rear = NULL;
-
-    coord.flag = false;
-    coord_prime.flag = false;
+    int ret;
+    //  bool first_iter = true;
+    //  dev_coord.flag = NULL;
+    //  temp_coord.flag = NULL;
 
     int error_rate = 0;
     int active_anchors = 0;
+
+    coord.flag = false;
+    coord_prime.flag = false;
 
     anchor_ptr_i = front;
     do
@@ -428,14 +617,14 @@ void calc_dev_location(struct Coordinates *dev_coord)
                 {
                     if (anchor_ptr_j->distance > 0)
                     {
-                        circles_intersection(anchor_ptr_i, anchor_ptr_j, &coord, &coord_prime);
-                        if (!(coord.flag) && !(coord_prime.flag))
+                        circles_intersection(anchor_ptr_i, anchor_ptr_j, coord_ptr, coord_prime_ptr);
+                        // LOG_INF("Coordinates Flags %d %d", coord.flag, coord_prime.flag);
+                        if (coord.flag && coord_prime.flag)
                         {
-                            if (ips_front == NULL)
-                            {
-                                add_intersection(ips_front, ips_rear, coord);
-                                add_intersection(ips_front, ips_rear, coord_prime);
-                            }
+                            // LOG_INF("In Adding Intersction.");
+                            add_intersection(coord, IPs_LIST1);
+                            add_intersection(coord_prime, IPs_LIST1);
+                            // get_intersection_count(ips_front, ips_rear);
                         }
                     }
                 }
@@ -449,14 +638,35 @@ void calc_dev_location(struct Coordinates *dev_coord)
         anchor_ptr_i = anchor_ptr_i->next;
     } while (anchor_ptr_i != NULL);
 
-    // Below function dumps the non-duplicate data in new IPs queue and frees the previous IPs list
-    remove_duplicate_intersections(ips_front, ips_rear, ips_filtered_front, ips_filtered_rear);
+    LOG_INF("Total Intersections: %d", get_intersection_count(IPs_LIST1));
+// remove_all_intersections(IPs_LIST1);
 
-    get_polygon(ips_filtered_front, ips_filtered_rear, ips_polygon_front, ips_polygon_rear, error_rate, active_anchors);
+/*
+// Below function dumps the non-duplicate data in new IPs queue and frees the previous IPs list
+ret = remove_duplicate_intersections();
+LOG_INF("Filtered Intersections: %d", ret);
+remove_all_intersections(IPs_LIST1);
+*/
+POLYGON_CALC:
+    ret = get_polygon(IPs_LIST1, IPs_LIST2, error_rate, active_anchors);
+    LOG_INF("Polygon Points: %d", ret);
 
-    get_centroid(ips_polygon_front, ips_polygon_rear, dev_coord);
-
-    remove_all_intersections(ips_polygon_front, ips_polygon_rear);
+    if (ret > 2)
+    {
+        dev_coords = get_centroid(IPs_LIST2);
+        remove_all_intersections(IPs_LIST2);
+    }
+    else
+    {
+        if (error_rate < 1)
+        {
+            error_rate = 1;
+            goto POLYGON_CALC;
+        }
+        remove_all_intersections(IPs_LIST2);
+    }
+    remove_all_intersections(IPs_LIST1);
+    return dev_coords;
 }
 
 // main function
@@ -494,6 +704,8 @@ void main(void)
     float avg_fact = 0;
     int samples = 0;
     float ratio = 2570 / 1992;
+    float avg_dist = 0;
+    bool anchor_pkt_possible = false;
 
     if (!device_is_ready(lora_dev))
     {
@@ -570,10 +782,36 @@ void main(void)
 
             operation = RECEIVE;
             break;
-        case ANCHOR_PKT:
-            if (!add_anchor(payload.host_id, payload.coords))
+        case CORNER_PKT:
+            if (payload.host_id == host_id)
             {
-                LOG_INF("Received Already Existing Anchor.");
+                LOG_INF("Corner Packet Received");
+                if (payload.coords.flag == false)
+                {
+                    bottom_left_corner.flag = true;
+                    bottom_left_corner.x = payload.coords.x;
+                    bottom_left_corner.y = payload.coords.y;
+                }
+                else
+                {
+                    top_right_corner.flag = true;
+                    top_right_corner.x = payload.coords.x;
+                    top_right_corner.y = payload.coords.y;
+
+                    anchor_pkt_possible = true;
+                }
+            }
+
+            operation = RECEIVE;
+            break;
+
+        case ANCHOR_PKT:
+            if (anchor_pkt_possible)
+            {
+                if (!add_anchor(payload.host_id, payload.coords))
+                {
+                    LOG_INF("Received Already Existing Anchor.");
+                }
             }
             operation = RECEIVE;
             break;
@@ -586,7 +824,10 @@ void main(void)
             LOG_INF("ALL ANCHORS RECEIVED.");
             // show_anchors();
             if (anchor_count > 2)
+            {
+                lora_setup_ranging(lora_dev, &config, host_id, ROLE_SENDER);
                 operation = START_RANGING;
+            }
             else
                 operation = RECEIVE;
 
@@ -598,8 +839,6 @@ void main(void)
             anchor_ptr = front;
             do
             {
-                if (!ranging_done)
-                    lora_setup_ranging(lora_dev, &config, host_id, ROLE_SENDER);
                 // k_sleep(K_MSEC(30));
                 samples = 0;
                 sum = 0;
@@ -608,7 +847,7 @@ void main(void)
                 while (samples < 10)
                 {
                     ranging_result = lora_transmit_ranging(lora_dev, &config, (anchor_ptr->host_id));
-                    if (ranging_result.status != false)
+                    if (ranging_result.status != false && ranging_result.distance > 0)
                     {
                         sum = sum + ranging_result.distance;
                         avg_fact++;
@@ -618,7 +857,8 @@ void main(void)
                 }
                 if (sum > 0.0)
                 {
-                    anchor_ptr->distance = ceil((sum / avg_fact) * ratio * 0.25); // Distance in pixels via ratio multiplication.
+                    avg_dist = sum / avg_fact;
+                    anchor_ptr->distance = ceil(avg_dist * ratio); // Distance in pixels via ratio multiplication.
                     anchor_ptr->RSSI = ranging_result.RSSIVal;
                 }
                 else
@@ -633,9 +873,11 @@ void main(void)
 
             show_anchors();
             // prev_anchor = NULL;
-            calc_dev_location(&dev_coords);
-            ranging_done = true;
-            LOG_INF("Device Location :(%d, %d).", dev_coords.x, dev_coords.y);
+            dev_coords = get_dev_location();
+            // ranging_done = true;
+            if (dev_coords.flag)
+                LOG_INF("Device Location :(%d, %d).", dev_coords.x, dev_coords.y);
+
             /*
             if(anchor_count >= 3)
             {

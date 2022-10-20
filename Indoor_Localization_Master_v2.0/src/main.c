@@ -50,6 +50,7 @@ raspi17     d2 bf 5c 98
 #define ALIVE_ACK 0x09
 #define ALL_DONE_PKT 0x06
 #define ANCHOR_PKT 0x10
+#define CORNER_PKT 0x12
 #define NONE 0xFF
 //
 
@@ -80,6 +81,17 @@ struct Anchor
 {
     uint32_t host_id;
     struct Coordinates coords;
+};
+
+struct Coordinates bottom_left_corner = {
+    .flag = false,
+    .x = 0.0,
+    .y = 0.0,
+};
+struct Coordinates top_right_corner = {
+    .flag = true,
+    .x = 2865,
+    .y = 2865,
 };
 
 void get_anchor_coordinates(uint32_t host_id, struct Coordinates *coords)
@@ -247,11 +259,41 @@ void main(void)
                 LOG_INF("RANGING POSSIBLE");
                 ranging_req_id = payload.host_id;
                 count = 0;
-                operation = ANCHOR_PKT;
+                operation = CORNER_PKT;
                 ranging_req_possible = false;
                 break;
             }
             operation = RECEIVE;
+            break;
+
+        case CORNER_PKT:
+            LOG_INF("SENDING BUILDING CORNERS.");
+            if (count < 1)
+            {
+                payload.host_id = ranging_req_id;
+                payload.coords = bottom_left_corner;
+                payload.operation = CORNER_PKT;
+
+                k_sleep(K_MSEC(20));
+                ret = lora_send(lora_dev, payload_ptr, sizeof(payload));
+                k_sleep(K_MSEC(30));
+
+                operation = CORNER_PKT;
+                count++;
+            }
+            else
+            {
+                payload.host_id = ranging_req_id;
+                payload.coords = top_right_corner;
+                payload.operation = CORNER_PKT;
+
+                k_sleep(K_MSEC(20));
+                ret = lora_send(lora_dev, payload_ptr, sizeof(payload));
+                k_sleep(K_MSEC(30));
+
+                count = 0;
+                operation = ANCHOR_PKT;
+            }
             break;
 
         case ANCHOR_PKT:
